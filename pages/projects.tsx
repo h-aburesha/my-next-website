@@ -1,5 +1,5 @@
 // Photos from https://citizenofnowhe.re/lines-of-the-city
-import "../styles/Projects.module.css";
+
 import { useRef } from "react";
 import {
     motion,
