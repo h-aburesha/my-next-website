@@ -167,7 +167,7 @@ article {
     bottom: 100px;
 }
 
-.landing-container {
+/* .landing-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,7 +175,7 @@ article {
     min-height: 100vh;
     background-color: #272627;
     color: white;
-}
+} */
 
 .header {
     display: flex;

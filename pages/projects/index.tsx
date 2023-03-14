@@ -21,7 +21,9 @@ function Image({ id }: { id: number }) {
     return (
         <section>
             <div ref={ref}>
-                <img src={`/${id}.jpg`} alt="A London skyscraper" />
+                <a href={`/projects/${id}`}>
+                    <img src={`/${id}.jpg`} alt="A London skyscraper" />
+                </a>
             </div>
             <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
         </section>

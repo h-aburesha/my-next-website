@@ -10,7 +10,10 @@ export default function Home() {
         <>
             <div className="landing-container">
                 <div className="navigation-bar">
-                    <button>See my work</button>
+                    <a href="/projects">
+                        {" "}
+                        <button>See my work</button>
+                    </a>
                     <button>About me</button>
                     <button>Contact</button>
                 </div>
