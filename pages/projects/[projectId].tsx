@@ -92,6 +92,32 @@ function ProjectDetail() {
                     nec ante. In et ex ultricies, mollis mi in, euismod dolor.
                 </p>
                 <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
+                <p>
+                    i have 4 main projects that i did during my web development
+                    bootcamp, I want to include in my cv with 1 or 2 sentences
+                    for each, the projects are as follows: React native based
+                    fitness tracking mobile app (Bold), UX/UI design was carried
+                    out by me during my previous UX/UI bootcamp and brought to
+                    life for my final graduation project. Despite not being
+                    taught mobile apps development, i have self taught myself
+                    build the entire app including feature as scanning food
+                    products barcode to display it's macronutrients, personal
+                    profile to track body metrics, notes and reminders, in
+                    addition to a metrics page with the total macronutrients
+                    intake for the day and recipes suggestion to meet set goals.
+                    React/ redux toolkit based social network platform,
+                    including profile page, bio and profile picture updates.
+                    Adding, rejecting and pending friend requests in addition to
+                    a chat feature using socket.io. Backend has been carried out
+                    by the help of Node.js and postgresSQL for database for
+                    registration, and saving all user information and ability to
+                    edit profiles and rest and change passwords. Vue.js based
+                    imageboard where users can anonymously upload pictures, add
+                    comments per picture, in addition to likes. A fully
+                    responsive app available across different screen. The
+                    backend development also carried out by node.js and
+                    postgresSQL in addition to AWS bucket for images hosting.
+                </p>
             </article>
         </>
     );
