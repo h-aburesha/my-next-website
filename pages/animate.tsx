@@ -28,10 +28,10 @@ function Section({ children }: { children: ReactNode }) {
 export default function Animate() {
     return (
         <>
-            <Section>Animate</Section>
-            <Section>when</Section>
-            <Section>in</Section>
-            <Section>view!</Section>
+            <Section>Welcome</Section>
+            <Section>to</Section>
+            <Section>my humble</Section>
+            <Section>Website!!</Section>
         </>
     );
 }
