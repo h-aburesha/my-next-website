@@ -25,10 +25,11 @@ export default function Home() {
             <Link to="/contact">Contact Me</Link> */}
                 </nav>
                 <header className="header">
-                    <h1 className="header-text">
-                        Hello, I am Hassan and I am a mixture of WebDev, UX/UI &
-                        8 years professional in business development!
-                    </h1>
+                    <code className="welcome-message">
+                        I'm a full stack developer & UX/UI designer based in
+                        Berlin.
+                    </code>
+                    <code> -- Try not to click too much 😜</code>
                 </header>
                 <div className="navigation-list-home">
                     <ul>
