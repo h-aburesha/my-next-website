@@ -1,5 +1,3 @@
-// Photos from https://citizenofnowhe.re/lines-of-the-city
-
 import { useRef } from "react";
 import {
     motion,
@@ -8,12 +6,13 @@ import {
     useTransform,
     MotionValue,
 } from "framer-motion";
+import Image from "next/image";
 
 function useParallax(value: MotionValue<number>, distance: number) {
     return useTransform(value, [0, 1], [-distance, distance]);
 }
 
-function Image({ id }: { id: number }) {
+function ProjectImage({ id }: { id: number }) {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
     const y = useParallax(scrollYProgress, 300);
@@ -22,7 +21,12 @@ function Image({ id }: { id: number }) {
         <section>
             <div ref={ref}>
                 <a href={`/projects/${id}`}>
-                    <img src={`/${id}.jpg`} alt="A London skyscraper" />
+                    <Image
+                        src={`/${id}.jpg`}
+                        alt="A London skyscraper"
+                        width={1000}
+                        height={500}
+                    />
                 </a>
             </div>
             <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
@@ -41,7 +45,7 @@ export default function Projects() {
     return (
         <>
             {[1, 2, 3, 4, 5].map((image) => (
-                <Image id={image} />
+                <ProjectImage key={image} id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
         </>

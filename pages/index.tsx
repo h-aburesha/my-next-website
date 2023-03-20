@@ -22,8 +22,8 @@ export default function Home() {
                 <nav className="navbar"></nav>
                 <header className="header">
                     <code className="welcome-message">
-                        I&apos;m a full stack developer & UX/UI designer based
-                        in Berlin.
+                        "I&apos;m a full stack developer & UX/UI designer based
+                        in Berlin."
                     </code>
                     <code> -- Click away my friend! 👽</code>
                 </header>
