@@ -29,7 +29,7 @@ export default function Home() {
                         I'm a full stack developer & UX/UI designer based in
                         Berlin.
                     </code>
-                    <code> -- Try not to click too much 😜</code>
+                    <code> -- Click away my friend! 👽</code>
                 </header>
                 <div className="navigation-list-home">
                     <ul>
