@@ -27,7 +27,7 @@ const ParticlesContainer = () => {
             options={{
                 particles: {
                     number: {
-                        value: 10,
+                        value: 25,
                         density: {
                             enable: true,
                             value_area: 800,
@@ -62,11 +62,11 @@ const ParticlesContainer = () => {
                         },
                     },
                     size: {
-                        value: 10,
+                        value: 5,
                         random: true,
                         anim: {
                             enable: false,
-                            speed: 30,
+                            speed: 5,
                             size_min: 0.1,
                             sync: false,
                         },
@@ -80,7 +80,7 @@ const ParticlesContainer = () => {
                     },
                     move: {
                         enable: true,
-                        speed: 3,
+                        speed: 1,
                         direction: "none",
                         random: false,
                         straight: false,

@@ -42,12 +42,10 @@ h1 {
     letter-spacing: -1px;
     line-height: 1.2;
     text-align: center;
-    margin: 100px 0 40px;
 }
 
 h2 {
     font-weight: 400;
-    margin: 50px 0 10px;
 }
 
 p {
@@ -170,17 +168,18 @@ article {
 .header {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     height: 50vh;
     width: 100%;
+    margin-left: 5%;
     overflow: hidden;
 }
 
-.header-text {
-    font-size: 3rem;
+.welcome-message {
+    font-size: 2em;
     font-weight: bold;
-    text-align: left;
-    margin: 0 2rem;
+    margin-bottom: 0.5em;
 }
 
 button {
