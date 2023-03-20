@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import ParticlesContainer from "./particles";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,10 +13,9 @@ export default function Home() {
             <ParticlesContainer />
             <div className="landing-container">
                 <div className="navigation-bar">
-                    <a href="/projects">
-                        {" "}
+                    <Link href="/projects">
                         <button>See my work</button>
-                    </a>
+                    </Link>
                     <button>About me</button>
                     <button>Contact</button>
                 </div>
