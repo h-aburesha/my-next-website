@@ -33,9 +33,11 @@ export default function Home() {
                 </header>
                 <div className="navigation-list-home">
                     <ul>
-                        <li>See my work → </li>
-                        <li>Read about my approach → </li>
-                        <li>Contact me → </li>
+                        <li>
+                            <Link href="/projects">See my work →</Link>
+                        </li>
+                        <li>Read about my approach →</li>
+                        <li>Contact me →</li>
                     </ul>
                 </div>
             </div>
