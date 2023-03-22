@@ -33,6 +33,7 @@ const AboutMe = () => {
 
             <article>
                 <h2>Brief Introduction</h2>
+                <hr />
                 <p>
                     I am a junior full-stack developer with a background in
                     UX/UI design and DevOps account management. I am passionate
@@ -41,7 +42,8 @@ const AboutMe = () => {
                     including JavaScript, React.js, React Native, Vue.js 2,
                     Node.js, TypeScript, and Figma.
                 </p>
-                <h2>Who I am now?</h2>
+                <h2>Currently</h2>
+                <hr />
                 <p>
                     I have completed a web development bootcamp at Spiced
                     Academy GmbH, where I acquired intensive, project-based
@@ -64,7 +66,8 @@ const AboutMe = () => {
                     website.
                 </p>
 
-                <h2>Who I was?</h2>
+                <h2>Previously</h2>
+                <hr />
                 <p>
                     I hold a Masters degree in Economics from
                     Philipps-Universität Marburg and a Bachelor degree in
@@ -74,6 +77,8 @@ const AboutMe = () => {
                     of experience in account management, market/financial
                     analysis, and creative customer solutions.
                 </p>
+                <h2>Skill-set</h2>
+                <hr />
                 <p>
                     I possess excellent skills in customer orientation,
                     problem-solving, conflict management, market, and financial
