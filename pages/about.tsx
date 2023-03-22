@@ -3,13 +3,16 @@ import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import Image from "next/image";
 
 const AboutMe = () => {
-    const moi =
-        "https://s3.amazonaws.com/spicedling/qhqGuzBSwezGuczS8deu45mOZs0MxUXo.png";
-
     return (
         <>
             <div className="profile-picture">
-                <Image className="my-image" src={moi} alt="Profile" />
+                <Image
+                    className="my-image"
+                    src="/me.png"
+                    alt="Profile"
+                    width={"150"}
+                    height={"150"}
+                />
             </div>
 
             <div className="icons">
