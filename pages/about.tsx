@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
+import Image from "next/image";
 
 const AboutMe = () => {
     const moi =
@@ -8,7 +9,7 @@ const AboutMe = () => {
     return (
         <>
             <div className="profile-picture">
-                <img className="my-image" src={moi} alt="Profile" />
+                <Image className="my-image" src={moi} alt="Profile" />
             </div>
 
             <div className="icons">
