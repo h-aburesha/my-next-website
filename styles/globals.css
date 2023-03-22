@@ -136,7 +136,7 @@ section > div {
     position: relative;
     max-height: 90vh;
     margin: 20px;
-    background: var(--white);
+    background: var(--black);
     overflow: hidden;
 }
 
@@ -165,6 +165,11 @@ article {
     bottom: 100px;
 }
 
+.projects-title-div {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -173,10 +178,12 @@ article {
     height: 50vh;
     margin-left: 5%;
     overflow: hidden;
+    width: 900px;
 }
 
 .welcome-message {
     font-size: 2em;
+    margin-top: 10%;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
@@ -225,4 +232,49 @@ button:focus-visible {
     right: 0;
     bottom: 0;
     z-index: 0;
+}
+
+/* About Me Section */
+
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.profile-picture .my-image {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.icons {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.icons a {
+    color: #fff; /* adjust to match your theme */
+}
+
+.icons a:hover {
+    color: #ccc; /* adjust to match your theme */
+}
+
+.icons a:focus {
+    outline: none;
+}
+
+.icons a:active {
+    transform: translateY(2px); /* adjust to match your preference */
 }

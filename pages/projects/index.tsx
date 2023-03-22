@@ -17,6 +17,29 @@ function ProjectImage({ id }: { id: number }) {
     const { scrollYProgress } = useScroll({ target: ref });
     const y = useParallax(scrollYProgress, 300);
 
+    const projectTitles = [
+        {
+            title: "Bold",
+            description: "Technology: React Native",
+        },
+        {
+            title: "Jam",
+            description: "Technology: React",
+        },
+        {
+            title: "Vue",
+            description: "Technology: Vue",
+        },
+        {
+            title: "Till",
+            description: "Focus: UX",
+        },
+        {
+            title: "Bold",
+            description: "Focus: UI",
+        },
+    ];
+
     return (
         <section>
             <div ref={ref}>
@@ -29,7 +52,21 @@ function ProjectImage({ id }: { id: number }) {
                     />
                 </a>
             </div>
-            <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
+            <div className="projects-title-div">
+                <motion.h2 style={{ y }}>
+                    {projectTitles[id - 1].title}
+                </motion.h2>
+                <motion.p
+                    style={{
+                        y: y,
+                        fontWeight: "lighter",
+                        fontStyle: "italic",
+                        marginTop: "10px",
+                    }}
+                >
+                    {projectTitles[id - 1].description}
+                </motion.p>
+            </div>
         </section>
     );
 }

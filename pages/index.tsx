@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import ParticlesContainer from "./particles";
 import Link from "next/link";
+import Animate from "./animate";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,12 +12,13 @@ export default function Home() {
     return (
         <>
             <ParticlesContainer />
+
             <div className="landing-container">
                 <div className="navigation-bar">
                     <Link href="/projects">
-                        <button>See my work</button>
+                        <button>Projects</button>
                     </Link>
-                    <button>About me</button>
+                    <button>About</button>
                     <button>Contact</button>
                 </div>
                 <nav className="navbar"></nav>
