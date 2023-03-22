@@ -38,16 +38,3 @@ export default function Home() {
         </>
     );
 }
-
-/* 
- <Link href="/projects">See my work →</Link>
-
-    <div className="navigation-list-home">
-                    <ul>
-                        <li>See my work →</li>
-                        <li>Read about my approach →</li>
-                        <li>Contact me →</li>
-                    </ul>
-                </div>
-                
-*/
