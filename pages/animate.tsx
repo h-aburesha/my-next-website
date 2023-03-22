@@ -1,6 +1,6 @@
 import { useRef, ReactNode } from "react";
 import { useInView } from "framer-motion";
-import styles from "./animate.module.css";
+import styles from "../styles/animate.module.css";
 
 function Section({ children }: { children: ReactNode }) {
     const ref = useRef(null);
