@@ -29,9 +29,7 @@ export default function Home() {
                 </header>
                 <div className="navigation-list-home">
                     <ul>
-                        <li>
-                            <Link href="/projects">See my work →</Link>
-                        </li>
+                        <li>See my work →</li>
                         <li>Read about my approach →</li>
                         <li>Contact me →</li>
                     </ul>
@@ -40,3 +38,7 @@ export default function Home() {
         </>
     );
 }
+
+/* 
+ <Link href="/projects">See my work →</Link>
+*/
