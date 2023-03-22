@@ -9,6 +9,7 @@ function ProjectDetail() {
             <h1>
                 <code>My Project</code> with spring smoothing
             </h1>
+
             <article>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

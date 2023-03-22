@@ -178,7 +178,7 @@ article {
     height: 50vh;
     margin-left: 5%;
     overflow: hidden;
-    width: 900px;
+    max-width: 900px;
 }
 
 .welcome-message {
