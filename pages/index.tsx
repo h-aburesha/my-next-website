@@ -18,8 +18,13 @@ export default function Home() {
                     <Link href="/projects">
                         <button>Projects</button>
                     </Link>
-                    <button>About</button>
-                    <button>Contact</button>
+                    <Link href="/about">
+                        <button>About</button>
+                    </Link>
+
+                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
+                        <button>Contact</button>
+                    </a>
                 </div>
                 <nav className="navbar"></nav>
                 <header className="header">
@@ -29,13 +34,6 @@ export default function Home() {
                     </code>
                     <code> -- Click away my friend! 👽</code>
                 </header>
-                <div className="navigation-list-home">
-                    <ul>
-                        <li>See my work →</li>
-                        <li>Read about my approach →</li>
-                        <li>Contact me →</li>
-                    </ul>
-                </div>
             </div>
         </>
     );
@@ -43,4 +41,13 @@ export default function Home() {
 
 /* 
  <Link href="/projects">See my work →</Link>
+
+    <div className="navigation-list-home">
+                    <ul>
+                        <li>See my work →</li>
+                        <li>Read about my approach →</li>
+                        <li>Contact me →</li>
+                    </ul>
+                </div>
+                
 */
