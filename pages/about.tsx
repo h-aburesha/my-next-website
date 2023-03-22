@@ -21,7 +21,7 @@ const AboutMe = () => {
                 <a target={"_blank"} href="https://github.com/h-aburesha">
                     <FaGithub />
                 </a>
-                <a href="/your-resume.pdf" download>
+                <a href="/hassan_aburesha_cv.pdf" download>
                     <FaDownload />
                 </a>
             </div>
