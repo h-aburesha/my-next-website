@@ -7,31 +7,30 @@ const AboutMe = () => {
         <>
             <div className="profile-picture">
                 <Image
-                    className="my-image"
-                    src="/me.png"
-                    alt="Profile"
-                    width={"150"}
-                    height={"150"}
+                    src="/my-stack-cover.png"
+                    alt="my-stack-cover"
+                    width={800}
+                    height={400}
                 />
+                <h1>
+                    <code>Hassan Aburesha</code>
+                </h1>
+                <div className="icons">
+                    <a
+                        target={"_blank"}
+                        href="https://www.linkedin.com/in/haburesha/"
+                    >
+                        <FaLinkedin />
+                    </a>
+                    <a target={"_blank"} href="https://github.com/h-aburesha">
+                        <FaGithub />
+                    </a>
+                    <a href="/hassan_aburesha_cv.pdf" download>
+                        <FaDownload />
+                    </a>
+                </div>
             </div>
 
-            <div className="icons">
-                <a
-                    target={"_blank"}
-                    href="https://www.linkedin.com/in/haburesha/"
-                >
-                    <FaLinkedin />
-                </a>
-                <a target={"_blank"} href="https://github.com/h-aburesha">
-                    <FaGithub />
-                </a>
-                <a href="/hassan_aburesha_cv.pdf" download>
-                    <FaDownload />
-                </a>
-            </div>
-            <h1>
-                <code>Hassan Aburesha</code>
-            </h1>
             <article>
                 <h2>Brief Introduction</h2>
                 <p>
