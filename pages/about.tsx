@@ -67,8 +67,8 @@ const AboutMe = () => {
 
                 <h2>Who I was?</h2>
                 <p>
-                    I hold a Masters's degree in Economics from
-                    Philipps-Universität Marburg and a Bachelor's degree in
+                    I hold a Masters degree in Economics from
+                    Philipps-Universität Marburg and a Bachelor degree in
                     Economics from Cairo University. Before pursuing a career in
                     web development, I worked as a business development manager
                     for ICT companies, where I acquired successful eight years
