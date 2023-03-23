@@ -23,7 +23,7 @@ const ParticlesContainer = () => {
             options={{
                 particles: {
                     number: {
-                        value: 35,
+                        value: 50,
                         density: {
                             enable: true,
                             value_area: 800,
@@ -39,7 +39,7 @@ const ParticlesContainer = () => {
                             color: "#000000",
                         },
                         polygon: {
-                            nb_sides: 5,
+                            nb_sides: 8,
                         },
                         image: {
                             src: "img/github.svg",
@@ -48,7 +48,7 @@ const ParticlesContainer = () => {
                         },
                     },
                     opacity: {
-                        value: 0.7,
+                        value: 0.3,
                         random: false,
                         anim: {
                             enable: false,
@@ -93,7 +93,7 @@ const ParticlesContainer = () => {
                     detect_on: "canvas",
                     events: {
                         onhover: {
-                            enable: false,
+                            enable: true,
                             mode: "repulse",
                         },
                         onclick: {
@@ -117,7 +117,7 @@ const ParticlesContainer = () => {
                             speed: 3,
                         },
                         repulse: {
-                            distance: 400,
+                            distance: 200,
                             duration: 0.4,
                         },
                         push: {
