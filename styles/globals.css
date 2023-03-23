@@ -53,6 +53,15 @@ p {
     font-size: 18px;
 }
 
+img,
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -158,6 +167,14 @@ article {
 .projects-title-div {
     display: flex;
     flex-direction: column;
+}
+
+.projects-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .header {

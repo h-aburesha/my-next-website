@@ -45,6 +45,7 @@ function ProjectImage({ id }: { id: number }) {
             <div ref={ref}>
                 <a href={`/projects/${id}`}>
                     <Image
+                        className="projects-image"
                         src={`/${id}.jpg`}
                         alt="A London skyscraper"
                         width={1000}
