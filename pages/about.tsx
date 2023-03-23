@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import Image from "next/image";
+import Footer from "../Components/Footer/Footer";
 
 const AboutMe = () => {
     return (
@@ -95,6 +96,7 @@ const AboutMe = () => {
                     German.
                 </p>
             </article>
+            <Footer />
         </>
     );
 };

@@ -7,6 +7,7 @@ import {
     MotionValue,
 } from "framer-motion";
 import Image from "next/image";
+import Footer from "../../Components/Footer/Footer";
 
 function useParallax(value: MotionValue<number>, distance: number) {
     return useTransform(value, [0, 1], [-distance, distance]);
@@ -86,6 +87,7 @@ export default function Projects() {
                 <ProjectImage key={image} id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
+            <Footer />
         </>
     );
 }
