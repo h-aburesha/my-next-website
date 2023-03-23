@@ -23,7 +23,7 @@ const ParticlesContainer = () => {
             options={{
                 particles: {
                     number: {
-                        value: 50,
+                        value: 40,
                         density: {
                             enable: true,
                             value_area: 800,
@@ -48,7 +48,7 @@ const ParticlesContainer = () => {
                         },
                     },
                     opacity: {
-                        value: 0.3,
+                        value: 0.7,
                         random: false,
                         anim: {
                             enable: false,
@@ -94,7 +94,7 @@ const ParticlesContainer = () => {
                     events: {
                         onhover: {
                             enable: true,
-                            mode: "repulse",
+                            mode: "bubble",
                         },
                         onclick: {
                             enable: true,
@@ -110,16 +110,17 @@ const ParticlesContainer = () => {
                             },
                         },
                         bubble: {
-                            distance: 800,
-                            size: 80,
-                            duration: 2,
-                            opacity: 0.8,
-                            speed: 3,
+                            distance: 300,
+                            size: 15,
+                            duration: 1,
+                            opacity: 0.3,
+                            speed: 8,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 100,
                             duration: 0.4,
                         },
+
                         push: {
                             particles_nb: 4,
                         },
