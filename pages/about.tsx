@@ -7,10 +7,11 @@ const AboutMe = () => {
         <>
             <div className="profile-picture">
                 <Image
-                    src="/my-stack-cover.png"
-                    alt="my-stack-cover"
-                    width={800}
-                    height={400}
+                    alt="hassan-aburesha"
+                    src="/me.png"
+                    width={150}
+                    height={150}
+                    className="my-image"
                 />
                 <h1>
                     <code>Hassan Aburesha</code>
@@ -30,8 +31,15 @@ const AboutMe = () => {
                     </a>
                 </div>
             </div>
-
             <article>
+                <hr />
+                <Image
+                    src="/my-stack-cover.png"
+                    alt="my-stack-cover"
+                    width={800}
+                    height={400}
+                />
+
                 <h2>Brief Introduction</h2>
                 <hr />
                 <p>

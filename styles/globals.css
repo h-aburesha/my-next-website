@@ -258,7 +258,9 @@ button:focus-visible {
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    position: relative;
+
+    display: flex;
+    margin: 8px;
 }
 
 .icons {
