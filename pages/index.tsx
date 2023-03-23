@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import ParticlesContainer from "./particles";
@@ -26,7 +27,7 @@ export default function Home() {
                         <button>Contact</button>
                     </a>
                 </div>
-                <nav className="navbar"></nav>
+
                 <header className="header">
                     <code className="welcome-message">
                         I&apos;m a full stack developer & UX/UI designer based
