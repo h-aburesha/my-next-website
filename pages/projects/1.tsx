@@ -1,5 +1,3 @@
-import Footer from "../../Components/Footer/Footer";
-
 function Project1() {
     return (
         <>
@@ -108,7 +106,6 @@ function Project1() {
                     utilizes AWS bucket for image hosting.
                 </p>
             </article>
-            <Footer />
         </>
     );
 }

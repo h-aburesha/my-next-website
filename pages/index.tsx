@@ -36,7 +36,6 @@ export default function Home() {
                     <code> -- Click away my friend! 👽</code>
                 </header>
             </div>
-            <Footer />
         </>
     );
 }
