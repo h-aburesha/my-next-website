@@ -1,6 +1,8 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import Image from "next/image";
+import me from "../public/me.png";
+import myStackCover from "../public/my-stack-cover.png";
 
 const AboutMe = () => {
     return (
@@ -8,10 +10,9 @@ const AboutMe = () => {
             <div className="profile-picture">
                 <Image
                     alt="hassan-aburesha"
-                    src="/me.png"
-                    width={150}
-                    height={150}
+                    src={me}
                     className="my-image"
+                    placeholder="blur"
                 />
                 <h1>
                     <code>Hassan Aburesha</code>
@@ -34,10 +35,9 @@ const AboutMe = () => {
             <article>
                 <hr />
                 <Image
-                    src="/my-stack-cover.png"
+                    src={myStackCover}
                     alt="my-stack-cover"
-                    width={800}
-                    height={400}
+                    placeholder="blur"
                 />
 
                 <h2>Brief Introduction</h2>
