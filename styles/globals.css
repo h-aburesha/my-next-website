@@ -203,7 +203,7 @@ article {
     margin-top: 10%;
     font-weight: bold;
     margin-bottom: 0.5em;
-    text-shadow: rgba(243, 223, 144, 0.541) 1px 0 10px;
+    text-shadow: rgba(243, 223, 144, 0.382) 1px 0 10px;
 }
 
 button {
@@ -241,8 +241,8 @@ button:focus-visible {
     font-size: 0.8em;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    text-shadow: rgba(243, 223, 144, 0.541) 1px 0 10px;
+    color: whitesmoke;
+    text-shadow: rgba(255, 204, 0, 0.476) 1px 0 6px;
 }
 
 #tsparticles {
