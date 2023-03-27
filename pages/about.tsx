@@ -81,7 +81,7 @@ const AboutMe = () => {
                     Philipps-Universität Marburg and a Bachelor degree in
                     Economics from Cairo University. Before pursuing a career in
                     web development, I worked as a business development manager
-                    for ICT companies, where I acquired successful eight years
+                    for ICT companies, where I acquired eight successful years
                     of experience in account management, market/financial
                     analysis, and creative customer solutions.
                 </p>
