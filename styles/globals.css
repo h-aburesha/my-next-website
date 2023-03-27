@@ -227,8 +227,9 @@ button:focus-visible {
 }
 
 .navigation-bar button {
-    font: 16px;
-    font-family: inherit;
+    font-size: 0.8em;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
