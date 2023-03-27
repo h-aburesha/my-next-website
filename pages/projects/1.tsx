@@ -1,6 +1,16 @@
+import { motion, useScroll, useSpring } from "framer-motion";
+
 function Project1() {
+    const { scrollYProgress } = useScroll();
+    const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001,
+    });
+
     return (
         <>
+            <motion.div className="progress-bar" style={{ scaleX }} />
             <h1>
                 <code>Bold</code> with spring smoothing
             </h1>
