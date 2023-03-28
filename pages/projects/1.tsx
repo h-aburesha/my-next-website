@@ -12,7 +12,7 @@ function Project1() {
         <>
             <motion.div className="progress-bar" style={{ scaleX }} />
             <h1>
-                <code>Bold</code> with spring smoothing
+                <code>Bold</code> with spring smoothing!
             </h1>
 
             <article>
