@@ -20,7 +20,7 @@ export default function Home() {
                         Full-Stack Web Developer & UX/UI Designer based in
                         Berlin. 👑
                     </code>
-                    <code> -- Click me 👽</code>
+                    <code> -- Click & move around! 👽</code>
                 </header>
             </div>
         </>
