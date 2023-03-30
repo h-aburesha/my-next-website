@@ -20,7 +20,7 @@ function Project1() {
             <Carousel
                 slideSize="70%"
                 height={320}
-                slideGap="xs"
+                slideGap="xl"
                 controlsOffset="xs"
                 controlSize={40}
                 loop
