@@ -27,7 +27,7 @@ function ProjectImage({ id }: { id: number }) {
             description: "Technology: React",
         },
         {
-            title: "Vue",
+            title: "Pixla",
             description: "Technology: Vue",
         },
         {
