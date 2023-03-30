@@ -47,7 +47,7 @@ function ProjectImage({ id }: { id: number }) {
                     <Image
                         className="projects-image"
                         src={`/${id}.jpg`}
-                        alt="A London skyscraper"
+                        alt={projectTitles[id - 1].description}
                         width={1000}
                         height={500}
                     />
