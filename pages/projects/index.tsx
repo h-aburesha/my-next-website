@@ -31,12 +31,12 @@ function ProjectImage({ id }: { id: number }) {
             description: "Technology: Vue",
         },
         {
-            title: "Till",
-            description: "Focus: UX",
+            title: "Till Van Loosen",
+            description: "UX Study & UI Figma",
         },
         {
-            title: "Bold",
-            description: "Focus: UI",
+            title: "Bold Fitness Tracker",
+            description: "UX Study & UI Figma",
         },
     ];
 
