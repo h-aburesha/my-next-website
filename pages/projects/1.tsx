@@ -1,6 +1,5 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Carousel } from "@mantine/carousel";
-import { rem } from "@mantine/core";
 
 function Project1() {
     const { scrollYProgress } = useScroll();
@@ -12,7 +11,6 @@ function Project1() {
 
     return (
         <>
-            <motion.div className="progress-bar" style={{ scaleX }} />
             <h1>
                 <code>Bold</code> with spring smoothing!
             </h1>
@@ -141,6 +139,7 @@ function Project1() {
                     utilizes AWS bucket for image hosting.
                 </p>
             </article>
+            <motion.div className="progress-bar" style={{ scaleX }} />
         </>
     );
 }
