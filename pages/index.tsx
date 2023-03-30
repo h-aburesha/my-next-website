@@ -17,8 +17,7 @@ export default function Home() {
             <div className="landing-container">
                 <header className="header">
                     <code className="welcome-message">
-                        Full-Stack Web Developer & UX/UI Designer based in
-                        Berlin. 👑
+                        Full-Stack Web Developer & UX/UI Designer.
                     </code>
                     <code> -- Click & move around! 👽</code>
                 </header>
