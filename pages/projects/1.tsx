@@ -1,4 +1,6 @@
 import { motion, useScroll, useSpring } from "framer-motion";
+import { Carousel } from "@mantine/carousel";
+import { rem } from "@mantine/core";
 
 function Project1() {
     const { scrollYProgress } = useScroll();
@@ -14,6 +16,28 @@ function Project1() {
             <h1>
                 <code>Bold</code> with spring smoothing!
             </h1>
+
+            <Carousel
+                slideSize="70%"
+                height={320}
+                slideGap="xs"
+                controlsOffset="xs"
+                controlSize={40}
+                loop
+                withIndicators
+            >
+                <Carousel.Slide>
+                    {" "}
+                    <img src="/1.jpg" />{" "}
+                </Carousel.Slide>
+                <Carousel.Slide>
+                    <img src="/2.jpg" />
+                </Carousel.Slide>
+                <Carousel.Slide>
+                    <img src="/3.jpg" />
+                </Carousel.Slide>
+                {/* ...other slides */}
+            </Carousel>
 
             <article>
                 <p>
