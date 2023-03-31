@@ -43,11 +43,6 @@ function ProjectImage({ id }: { id: number }) {
 
     return (
         <>
-            <div className="navigation-bar">
-                <Link href="/">
-                    <button>HOME</button>
-                </Link>
-            </div>
             <section>
                 <div ref={ref}>
                     <a href={`/projects/${id}`}>
