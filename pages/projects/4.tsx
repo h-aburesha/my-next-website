@@ -1,4 +1,5 @@
 import { motion, useScroll, useSpring } from "framer-motion";
+import Link from "next/link";
 
 function Project4() {
     const { scrollYProgress } = useScroll();
@@ -10,7 +11,20 @@ function Project4() {
 
     return (
         <>
-            <motion.div className="progress-bar" style={{ scaleX }} />
+            <nav>
+                <div className="navigation-bar">
+                    <Link href="/">
+                        <button>HOME</button>
+                    </Link>
+                    <Link href="/projects">
+                        <button>PROJECTS</button>
+                    </Link>
+
+                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
+                        <button>EMAIL</button>
+                    </a>
+                </div>
+            </nav>
             <h1>
                 <code>Till Van Loosen</code> Live UX/UI Study
             </h1>
@@ -116,6 +130,7 @@ function Project4() {
                     utilizes AWS bucket for image hosting.
                 </p>
             </article>
+            <motion.div className="progress-bar" style={{ scaleX }} />
         </>
     );
 }

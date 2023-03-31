@@ -1,5 +1,6 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Carousel } from "@mantine/carousel";
+import Link from "next/link";
 
 function Project1() {
     const { scrollYProgress } = useScroll();
@@ -11,6 +12,21 @@ function Project1() {
 
     return (
         <>
+            <nav>
+                <div className="navigation-bar">
+                    <Link href="/">
+                        <button>HOME</button>
+                    </Link>
+                    <Link href="/projects">
+                        <button>PROJECTS</button>
+                    </Link>
+
+                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
+                        <button>EMAIL</button>
+                    </a>
+                </div>
+            </nav>
+
             <h1>
                 <code>Bold</code> with spring smoothing!
             </h1>

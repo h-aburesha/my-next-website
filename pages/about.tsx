@@ -3,10 +3,26 @@ import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import Image from "next/image";
 import me from "../public/me.png";
 import myStackCover from "../public/my-stack-cover.png";
+import Link from "next/link";
 
 const AboutMe = () => {
     return (
         <>
+            <header>
+                <div className="navigation-bar">
+                    <Link href="/">
+                        <button>HOME</button>
+                    </Link>
+                    <Link href="/projects">
+                        <button>PROJECTS</button>
+                    </Link>
+
+                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
+                        <button>EMAIL</button>
+                    </a>
+                </div>
+            </header>
+
             <div className="profile-picture">
                 <Image
                     alt="hassan-aburesha"

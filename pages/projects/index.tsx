@@ -7,6 +7,7 @@ import {
     MotionValue,
 } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 function useParallax(value: MotionValue<number>, distance: number) {
     return useTransform(value, [0, 1], [-distance, distance]);
@@ -41,34 +42,41 @@ function ProjectImage({ id }: { id: number }) {
     ];
 
     return (
-        <section>
-            <div ref={ref}>
-                <a href={`/projects/${id}`}>
-                    <Image
-                        className="projects-image"
-                        src={`/${id}.jpg`}
-                        alt={projectTitles[id - 1].description}
-                        width={1000}
-                        height={500}
-                    />
-                </a>
+        <>
+            <div className="navigation-bar">
+                <Link href="/">
+                    <button>HOME</button>
+                </Link>
             </div>
-            <div className="projects-title-div">
-                <motion.h2 style={{ y }}>
-                    {projectTitles[id - 1].title}
-                </motion.h2>
-                <motion.p
-                    style={{
-                        y: y,
-                        fontWeight: "lighter",
-                        fontStyle: "italic",
-                        marginTop: "10px",
-                    }}
-                >
-                    {projectTitles[id - 1].description}
-                </motion.p>
-            </div>
-        </section>
+            <section>
+                <div ref={ref}>
+                    <a href={`/projects/${id}`}>
+                        <Image
+                            className="projects-image"
+                            src={`/${id}.jpg`}
+                            alt={projectTitles[id - 1].description}
+                            width={1000}
+                            height={500}
+                        />
+                    </a>
+                </div>
+                <div className="projects-title-div">
+                    <motion.h2 style={{ y }}>
+                        {projectTitles[id - 1].title}
+                    </motion.h2>
+                    <motion.p
+                        style={{
+                            y: y,
+                            fontWeight: "lighter",
+                            fontStyle: "italic",
+                            marginTop: "10px",
+                        }}
+                    >
+                        {projectTitles[id - 1].description}
+                    </motion.p>
+                </div>
+            </section>
+        </>
     );
 }
 
