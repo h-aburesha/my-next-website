@@ -32,14 +32,12 @@ function Project1() {
             </h1>
 
             <Carousel
-                slideSize="70%"
-                height={320}
-                align="center"
-                slideGap="xl"
-                controlsOffset="xs"
-                controlSize={40}
-                loop
+                maw={680}
+                mx="auto"
                 withIndicators
+                height="auto"
+                controlsOffset="xs"
+                loop
             >
                 <Carousel.Slide>
                     {" "}
