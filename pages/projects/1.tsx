@@ -1,6 +1,12 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Carousel } from "@mantine/carousel";
 import Link from "next/link";
+import Image from "next/image";
+import b1 from "../../public/bold_pics/b1.png";
+import b2 from "../../public/bold_pics/b2.png";
+import b3 from "../../public/bold_pics/b3.png";
+import b4 from "../../public/bold_pics/b4.png";
+import b5 from "../../public/bold_pics/b5.png";
 
 function Project1() {
     const { scrollYProgress } = useScroll();
@@ -32,7 +38,7 @@ function Project1() {
             </h1>
 
             <Carousel
-                maw={680}
+                maw="auto"
                 mx="auto"
                 withIndicators
                 height="auto"
@@ -40,16 +46,41 @@ function Project1() {
                 loop
             >
                 <Carousel.Slide>
-                    {" "}
-                    <img src="/1.jpg" />{" "}
+                    <Image
+                        src={b1}
+                        alt="Bold fitness tracking app home page built by react native over expo client"
+                        placeholder="blur"
+                    />
                 </Carousel.Slide>
                 <Carousel.Slide>
-                    <img src="/2.jpg" />
+                    <Image
+                        src={b2}
+                        alt="Bold fitness tracking app macronutients page"
+                        placeholder="blur"
+                    />
                 </Carousel.Slide>
                 <Carousel.Slide>
-                    <img src="/3.jpg" />
+                    <Image
+                        src={b3}
+                        alt="Bold fitness tracking app native recepies carousel"
+                        placeholder="blur"
+                    />
                 </Carousel.Slide>
-                {/* ...other slides */}
+
+                <Carousel.Slide>
+                    <Image
+                        src={b4}
+                        alt="Bold fitness tracking app profile page"
+                        placeholder="blur"
+                    />
+                </Carousel.Slide>
+                <Carousel.Slide>
+                    <Image
+                        src={b5}
+                        alt="Bold fitness tracking app to-do list modal with touchable opacity"
+                        placeholder="blur"
+                    />
+                </Carousel.Slide>
             </Carousel>
 
             <article>
