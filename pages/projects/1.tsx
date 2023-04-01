@@ -1,5 +1,6 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Carousel } from "@mantine/carousel";
+import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import b1 from "../../public/bold_pics/b1.png";
@@ -32,9 +33,26 @@ function Project1() {
                     </a>
                 </div>
             </nav>
-
             <h1>
-                <code>Bold</code> with spring smoothing!
+                <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
+                    BOLD{" "}
+                </code>
+                <a
+                    target={"_blank"}
+                    href="https://github.com/h-aburesha/react-native-app-bold"
+                >
+                    <FaGithub />
+                </a>
+                <br />
+                <code
+                    style={{
+                        fontStyle: "italic",
+                        fontWeight: "lighter",
+                        fontSize: "0.8em",
+                    }}
+                >
+                    A React Native App
+                </code>
             </h1>
 
             <Carousel
@@ -84,6 +102,7 @@ function Project1() {
             </Carousel>
 
             <article>
+                <h2>Sub-header</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam ac rhoncus quam.
