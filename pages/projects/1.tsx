@@ -55,54 +55,72 @@ function Project1() {
                 </code>
             </h1>
 
-            <Carousel
-                maw="auto"
-                mx="auto"
-                withIndicators
-                height="auto"
-                controlsOffset="xs"
-                loop
-            >
-                <Carousel.Slide>
-                    <Image
-                        src={b1}
-                        alt="Bold fitness tracking app home page built by react native over expo client"
-                        placeholder="blur"
-                    />
-                </Carousel.Slide>
-                <Carousel.Slide>
-                    <Image
-                        src={b2}
-                        alt="Bold fitness tracking app macronutients page"
-                        placeholder="blur"
-                    />
-                </Carousel.Slide>
-                <Carousel.Slide>
-                    <Image
-                        src={b3}
-                        alt="Bold fitness tracking app native recepies carousel"
-                        placeholder="blur"
-                    />
-                </Carousel.Slide>
-
-                <Carousel.Slide>
-                    <Image
-                        src={b4}
-                        alt="Bold fitness tracking app profile page"
-                        placeholder="blur"
-                    />
-                </Carousel.Slide>
-                <Carousel.Slide>
-                    <Image
-                        src={b5}
-                        alt="Bold fitness tracking app to-do list modal with touchable opacity"
-                        placeholder="blur"
-                    />
-                </Carousel.Slide>
-            </Carousel>
-
             <article>
-                <h2>Sub-header</h2>
+                <Carousel
+                    maw="auto"
+                    mx="auto"
+                    withIndicators
+                    height="auto"
+                    controlsOffset="xs"
+                    loop
+                >
+                    <Carousel.Slide>
+                        <Image
+                            src={b1}
+                            alt="Bold fitness tracking app home page built by react native over expo client"
+                            placeholder="blur"
+                        />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                        <Image
+                            src={b2}
+                            alt="Bold fitness tracking app macronutients page"
+                            placeholder="blur"
+                        />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                        <Image
+                            src={b3}
+                            alt="Bold fitness tracking app native recepies carousel"
+                            placeholder="blur"
+                        />
+                    </Carousel.Slide>
+
+                    <Carousel.Slide>
+                        <Image
+                            src={b4}
+                            alt="Bold fitness tracking app profile page"
+                            placeholder="blur"
+                        />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                        <Image
+                            src={b5}
+                            alt="Bold fitness tracking app to-do list modal with touchable opacity"
+                            placeholder="blur"
+                        />
+                    </Carousel.Slide>
+                </Carousel>
+                <h2>Description</h2>
+                <hr />
+                <p>
+                    Fringilla quam urna. Cras turpis elit, euismod eget ligula
+                    quis, imperdiet sagittis justo. In viverra fermentum ex ac
+                    vestibulum. Aliquam eleifend nunc a luctus porta. Mauris
+                    laoreet augue ut felis blandit, at iaculis odio ultrices.
+                    Nulla facilisi. Vestibulum cursus ipsum tellus, eu tincidunt
+                    neque tincidunt a.
+                </p>
+                <p>
+                    Fringilla quam urna. Cras turpis elit, euismod eget ligula
+                    quis, imperdiet sagittis justo. In viverra fermentum ex ac
+                    vestibulum. Aliquam eleifend nunc a luctus porta. Mauris
+                    laoreet augue ut felis blandit, at iaculis odio ultrices.
+                    Nulla facilisi. Vestibulum cursus ipsum tellus, eu tincidunt
+                    neque tincidunt a.
+                </p>
+                <h2>Features</h2>
+                <hr />
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aliquam ac rhoncus quam.
@@ -115,7 +133,8 @@ function Project1() {
                     Nulla facilisi. Vestibulum cursus ipsum tellus, eu tincidunt
                     neque tincidunt a.
                 </p>
-                <h2>Sub-header</h2>
+                <h2>Challenges</h2>
+                <hr />
                 <p>
                     In eget sodales arcu, consectetur efficitur metus. Duis
                     efficitur tincidunt odio, sit amet laoreet massa fringilla
@@ -136,7 +155,9 @@ function Project1() {
                     pharetra leo vitae tristique rutrum. Donec ut volutpat ante,
                     ut suscipit leo.
                 </p>
-                <h2>Sub-header</h2>
+                <h2>Gallery</h2>
+                <hr />
+
                 <p>
                     Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum
                     fringilla aliquet. Pellentesque auctor vehicula malesuada.
@@ -167,40 +188,6 @@ function Project1() {
                     Vestibulum bibendum at erat sit amet pulvinar. Pellentesque
                     pharetra leo vitae tristique rutrum. Donec ut volutpat ante,
                     ut suscipit leo.
-                </p>
-                <h2>Sub-header</h2>
-                <p>
-                    Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum
-                    fringilla aliquet. Pellentesque auctor vehicula malesuada.
-                    Aliquam id feugiat sem, sit amet tempor nulla. Quisque
-                    fermentum felis faucibus, vehicula metus ac, interdum nibh.
-                    Curabitur vitae convallis ligula. Integer ac enim vel felis
-                    pharetra laoreet. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus. Pellentesque hendrerit ac augue quis
-                    pretium.
-                </p>
-                <p>
-                    Morbi ut scelerisque nibh. Integer auctor, massa non dictum
-                    tristique, elit metus efficitur elit, ac pretium sapien nisl
-                    nec ante. In et ex ultricies, mollis mi in, euismod dolor.
-                </p>
-                <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
-                <p>
-                    Bold - React Native, Node.js, PostgresSQL A fitness tracking
-                    mobile app that allows users to scan food product barcodes
-                    to display macronutrients, track body metrics, set notes and
-                    reminders, and get recipe suggestions. The metrics page
-                    displays total macronutrient intake for the day. Social
-                    Network Platform - React/Redux, Node.js, PostgresSQL A
-                    social network platform with features like creating profile
-                    pages, updating bio and profile picture, adding, rejecting
-                    or accepting friend requests, and using a chat feature
-                    through socket.io. The backend allows users to register,
-                    save their information, edit profiles, and reset or change
-                    passwords. Imageboard - Vue.js, Node.js, PostgresSQL, AWS An
-                    anonymous image board where users can upload pictures, add
-                    comments, and like photos. The app is fully responsive and
-                    utilizes AWS bucket for image hosting.
                 </p>
             </article>
             <motion.div className="progress-bar" style={{ scaleX }} />
