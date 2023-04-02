@@ -65,24 +65,22 @@ function Project1() {
                 </p>
                 <h2 style={{ fontWeight: "bolder" }}>Features</h2>
                 <hr />
-                <p>
-                    <ul>
-                        <li>
-                            Barcode scanning using the phone&apos;s camera to
-                            show nutritional information of products.
-                        </li>
-                        <li>Tracking of body metrics.</li>
-                        <li>Capability for personal notes and reminders.</li>
-                        <li>Recipe suggestions.</li>
-                        <li>
-                            Metrics page displaying total macronutrient intake.
-                        </li>
-                        <li>
-                            Personal profile page with BMI, photo, and
-                            dark/light mode toggle
-                        </li>
-                    </ul>
-                </p>
+
+                <ul>
+                    <li>
+                        Barcode scanning using the phone&apos;s camera to show
+                        nutritional information of products.
+                    </li>
+                    <li>Tracking of body metrics.</li>
+                    <li>Capability for personal notes and reminders.</li>
+                    <li>Recipe suggestions.</li>
+                    <li>Metrics page displaying total macronutrient intake.</li>
+                    <li>
+                        Personal profile page with BMI, photo, and dark/light
+                        mode toggle
+                    </li>
+                </ul>
+
                 <h2 style={{ fontWeight: "bolder" }}>
                     Challenges & Motivation
                 </h2>
@@ -179,6 +177,7 @@ function Project1() {
                 </Carousel>
                 <br />
             </article>
+            <br />
             <motion.div className="progress-bar" style={{ scaleX }} />
         </>
     );
