@@ -23,9 +23,12 @@ function Project2() {
                         <button>PROJECTS</button>
                     </Link>
 
-                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
+                    <Link
+                        href="mailto:hassan.aburesha@gmail.com"
+                        target="_blank"
+                    >
                         <button>EMAIL</button>
-                    </a>
+                    </Link>
                 </div>
             </nav>
 
@@ -33,12 +36,12 @@ function Project2() {
                 <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
                     JAM{" "}
                 </code>
-                <a
+                <Link
                     target={"_blank"}
-                    href="https://github.com/h-aburesha/react-native-app-bold"
+                    href="https://github.com/h-aburesha/react-social-network-project"
                 >
                     <FaGithub />
-                </a>
+                </Link>
                 <br />
                 <code
                     style={{
