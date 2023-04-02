@@ -58,10 +58,15 @@ p {
 }
 
 img,
-video,
-iframe {
+video {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    max-width: 100%;
     display: block;
     margin: 0 auto;
 }

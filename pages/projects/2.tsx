@@ -34,7 +34,6 @@ function Project2() {
                     </Link>
                 </div>
             </nav>
-
             <h1>
                 <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
                     JAM{" "}
@@ -145,21 +144,21 @@ function Project2() {
                     <Carousel.Slide>
                         <Image
                             src={jam1}
-                            alt="Bold fitness tracking app home page built by react native over expo client"
+                            alt="jam social network platform logged in profile page, avatar and bio"
                             placeholder="blur"
                         />
                     </Carousel.Slide>
                     <Carousel.Slide>
                         <Image
                             src={jam2}
-                            alt="Bold fitness tracking app macronutients page"
+                            alt="jam social network platform logged in experience, existing friends and friendship requests"
                             placeholder="blur"
                         />
                     </Carousel.Slide>
                     <Carousel.Slide>
                         <Image
                             src={jam3}
-                            alt="Bold fitness tracking app native recepies carousel"
+                            alt="jam social network platform friends search"
                             placeholder="blur"
                         />
                     </Carousel.Slide>
