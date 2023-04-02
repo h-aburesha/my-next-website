@@ -51,7 +51,7 @@ function Project1() {
                         fontSize: "0.8em",
                     }}
                 >
-                    A React Native App
+                    React Native Fitness App
                 </code>
             </h1>
 
