@@ -41,7 +41,7 @@ function Project4() {
                 <h2>Introduction</h2>
                 <p>
                     Till Van Loosen is a Berlin based Photographer and Video
-                    director. This study's goal is to revamp his website to
+                    director. This study&apos;s goal is to revamp his website to
                     better display his skill-set. In addition to, ease of
                     usability to users in terms of overviewing projects & access
                     details easily.
