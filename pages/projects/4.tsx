@@ -1,5 +1,7 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
+import till1 from "../../public/till_pics/till1.png";
 
 function Project4() {
     const { scrollYProgress } = useScroll();
@@ -25,23 +27,26 @@ function Project4() {
                     </a>
                 </div>
             </nav>
-            <h1>
-                <code>Till Van Loosen</code> UX/UI Study
-            </h1>
+
+            <Image
+                src={till1}
+                placeholder="blur"
+                alt="Elef - by Till Van Loosen"
+                width={800}
+                priority={true}
+                loading="eager"
+            />
 
             <article>
+                <h2>Introduction</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam ac rhoncus quam.
+                    Till Van Loosen is a Berlin based Photographer and Video
+                    director. This study's goal is to revamp his website to
+                    better display his skill-set. In addition to, ease of
+                    usability to users in terms of overviewing projects & access
+                    details easily.
                 </p>
-                <p>
-                    Fringilla quam urna. Cras turpis elit, euismod eget ligula
-                    quis, imperdiet sagittis justo. In viverra fermentum ex ac
-                    vestibulum. Aliquam eleifend nunc a luctus porta. Mauris
-                    laoreet augue ut felis blandit, at iaculis odio ultrices.
-                    Nulla facilisi. Vestibulum cursus ipsum tellus, eu tincidunt
-                    neque tincidunt a.
-                </p>
+
                 <h2>Sub-header</h2>
                 <p>
                     In eget sodales arcu, consectetur efficitur metus. Duis
