@@ -97,7 +97,7 @@ function Project4() {
                 <hr />
                 <ul>
                     <li>
-                        The customer's website was designed to showcase his
+                        The customer&apos;s website was designed to showcase his
                         work.
                     </li>
                     <li>
@@ -113,7 +113,7 @@ function Project4() {
                     </li>
                     <li>
                         The challenge is to redesign the website to meet the
-                        users' needs and expectations.
+                        users&apos; needs and expectations.
                     </li>
                 </ul>
                 <h2>Hypothesis</h2>
