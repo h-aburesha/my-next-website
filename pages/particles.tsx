@@ -23,7 +23,7 @@ const ParticlesContainer = () => {
             options={{
                 particles: {
                     number: {
-                        value: 40,
+                        value: 60,
                         density: {
                             enable: true,
                             value_area: 800,
@@ -39,7 +39,7 @@ const ParticlesContainer = () => {
                             color: "#000000",
                         },
                         polygon: {
-                            nb_sides: 8,
+                            nb_sides: 10,
                         },
                         image: {
                             src: "img/github.svg",
@@ -51,10 +51,10 @@ const ParticlesContainer = () => {
                         value: 0.3,
                         random: false,
                         anim: {
-                            enable: false,
+                            enable: true,
                             speed: 0.8,
                             opacity_min: 0.1,
-                            sync: false,
+                            sync: true,
                         },
                     },
                     size: {

@@ -3,7 +3,6 @@ import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 function Footer({ title = "All rights reserved" }) {
     return (
         <footer>
-            <code>{title} &copy;</code>
             <div className="footer-icons">
                 <a
                     target={"_blank"}
@@ -18,6 +17,7 @@ function Footer({ title = "All rights reserved" }) {
                     <FaDownload />
                 </a>
             </div>
+            <code>{title} &copy;</code>
         </footer>
     );
 }

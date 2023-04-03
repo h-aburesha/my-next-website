@@ -26,7 +26,7 @@ function Project4() {
                 </div>
             </nav>
             <h1>
-                <code>Till Van Loosen</code> Live UX/UI Study
+                <code>Till Van Loosen</code> UX/UI Study
             </h1>
 
             <article>
