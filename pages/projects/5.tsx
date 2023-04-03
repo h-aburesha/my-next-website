@@ -1,5 +1,9 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
+import boldux1 from "../../public/bold_ux/boldcover.png";
+import boldux2 from "../../public/bold_ux/persona.png";
+import boldux3 from "../../public/bold_ux/moodboard.png";
 
 function Project5() {
     const { scrollYProgress } = useScroll();
@@ -26,111 +30,92 @@ function Project5() {
                 </div>
             </nav>
 
-            <h1>
-                <code>Bold</code> UX/UI Study
-            </h1>
+            <Image
+                src={boldux1}
+                placeholder="blur"
+                alt="Bold UX/UI study cover photo"
+                width={800}
+                priority={true}
+                loading="eager"
+            />
 
             <article>
+                <h2>Introduction & Motivation</h2>
+                <hr />
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam ac rhoncus quam.
+                    My motivation to design this app was rather personal. On one
+                    hand, I am a person who struggled throughout puberty by
+                    being obese and currently was in need to stay on top of what
+                    I eat to keep the weight off. This app is intended for
+                    anyone who wants to track their macronutrients to meet their
+                    weight goals, be it lose or gain.
                 </p>
+                <h2>Data Insights</h2>
+                <hr />
+                <ul>
+                    <li>
+                        User interviews showed that 80& found it hard to reach
+                        weight goals.
+                    </li>
+                    <li>
+                        Around 70% of users interested in reaching a weight goal
+                        never tracked their macronutrients.
+                    </li>
+                    <li>
+                        75% however, believed they should track their caloric
+                        intake.
+                    </li>
+                    <li>
+                        Users found most of the apps on the market overwhelming
+                        and with too many functionalities.
+                    </li>
+                </ul>
+                <h2>Problem Statement</h2>
+                <hr />
                 <p>
-                    Fringilla quam urna. Cras turpis elit, euismod eget ligula
-                    quis, imperdiet sagittis justo. In viverra fermentum ex ac
-                    vestibulum. Aliquam eleifend nunc a luctus porta. Mauris
-                    laoreet augue ut felis blandit, at iaculis odio ultrices.
-                    Nulla facilisi. Vestibulum cursus ipsum tellus, eu tincidunt
-                    neque tincidunt a.
+                    By providing users with an App to trace their intake of
+                    calories and macronutrients, it will help them achieve
+                    weight goals.
                 </p>
-                <h2>Sub-header</h2>
+                <h2>Persona</h2>
+                <hr />
+
+                <Image
+                    src={boldux2}
+                    placeholder="blur"
+                    alt="Bold UX/UI study persona"
+                    width={800}
+                    priority={true}
+                    loading="eager"
+                />
+                <h2>Mood Board</h2>
+                <hr />
+                <Image
+                    src={boldux3}
+                    placeholder="blur"
+                    alt="Bold UX/UI study persona"
+                    width={800}
+                    priority={true}
+                    loading="eager"
+                />
+                <h2>Hi-Fi Prototype</h2>
+                <hr />
                 <p>
-                    In eget sodales arcu, consectetur efficitur metus. Duis
-                    efficitur tincidunt odio, sit amet laoreet massa fringilla
-                    eu.
+                    Click to enlarge. Prototype could by clicking outside to
+                    give navigation hints or by the use of the arrows under the
+                    prototype.
                 </p>
-                <p>
-                    Pellentesque id lacus pulvinar elit pulvinar pretium ac non
-                    urna. Mauris id mauris vel arcu commodo venenatis. Aliquam
-                    eu risus arcu. Proin sit amet lacus mollis, semper massa ut,
-                    rutrum mi.
-                </p>
-                <p>
-                    Sed sem nisi, luctus consequat ligula in, congue sodales
-                    nisl.
-                </p>
-                <p>
-                    Vestibulum bibendum at erat sit amet pulvinar. Pellentesque
-                    pharetra leo vitae tristique rutrum. Donec ut volutpat ante,
-                    ut suscipit leo.
-                </p>
-                <h2>Sub-header</h2>
-                <p>
-                    Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum
-                    fringilla aliquet. Pellentesque auctor vehicula malesuada.
-                    Aliquam id feugiat sem, sit amet tempor nulla. Quisque
-                    fermentum felis faucibus, vehicula metus ac, interdum nibh.
-                    Curabitur vitae convallis ligula. Integer ac enim vel felis
-                    pharetra laoreet. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus. Pellentesque hendrerit ac augue quis
-                    pretium.
-                </p>
-                <p>
-                    Morbi ut scelerisque nibh. Integer auctor, massa non dictum
-                    tristique, elit metus efficitur elit, ac pretium sapien nisl
-                    nec ante. In et ex ultricies, mollis mi in, euismod dolor.
-                </p>
-                <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
-                <p>
-                    Pellentesque id lacus pulvinar elit pulvinar pretium ac non
-                    urna. Mauris id mauris vel arcu commodo venenatis. Aliquam
-                    eu risus arcu. Proin sit amet lacus mollis, semper massa ut,
-                    rutrum mi.
-                </p>
-                <p>
-                    Sed sem nisi, luctus consequat ligula in, congue sodales
-                    nisl.
-                </p>
-                <p>
-                    Vestibulum bibendum at erat sit amet pulvinar. Pellentesque
-                    pharetra leo vitae tristique rutrum. Donec ut volutpat ante,
-                    ut suscipit leo.
-                </p>
-                <h2>Sub-header</h2>
-                <p>
-                    Maecenas quis elementum nulla, in lacinia nisl. Ut rutrum
-                    fringilla aliquet. Pellentesque auctor vehicula malesuada.
-                    Aliquam id feugiat sem, sit amet tempor nulla. Quisque
-                    fermentum felis faucibus, vehicula metus ac, interdum nibh.
-                    Curabitur vitae convallis ligula. Integer ac enim vel felis
-                    pharetra laoreet. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus. Pellentesque hendrerit ac augue quis
-                    pretium.
-                </p>
-                <p>
-                    Morbi ut scelerisque nibh. Integer auctor, massa non dictum
-                    tristique, elit metus efficitur elit, ac pretium sapien nisl
-                    nec ante. In et ex ultricies, mollis mi in, euismod dolor.
-                </p>
-                <p>Quisque convallis ligula non magna efficitur tincidunt.</p>
-                <p>
-                    Bold - React Native, Node.js, PostgresSQL A fitness tracking
-                    mobile app that allows users to scan food product barcodes
-                    to display macronutrients, track body metrics, set notes and
-                    reminders, and get recipe suggestions. The metrics page
-                    displays total macronutrient intake for the day. Social
-                    Network Platform - React/Redux, Node.js, PostgresSQL A
-                    social network platform with features like creating profile
-                    pages, updating bio and profile picture, adding, rejecting
-                    or accepting friend requests, and using a chat feature
-                    through socket.io. The backend allows users to register,
-                    save their information, edit profiles, and reset or change
-                    passwords. Imageboard - Vue.js, Node.js, PostgresSQL, AWS An
-                    anonymous image board where users can upload pictures, add
-                    comments, and like photos. The app is fully responsive and
-                    utilizes AWS bucket for image hosting.
-                </p>
+                <iframe
+                    style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                    width="800"
+                    height="450"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKS2WyWsMesM9KMkBQUzZZe%2FFitness-App---B.%3Fpage-id%3D1%253A2%26node-id%3D119-621%26viewport%3D102%252C1134%252C0.35%26scaling%3Dscale-down%26starting-point-node-id%3D119%253A621"
+                    allowFullScreen
+                ></iframe>
+                <br />
             </article>
+            <br />
+
             <motion.div className="progress-bar" style={{ scaleX }} />
         </>
     );
