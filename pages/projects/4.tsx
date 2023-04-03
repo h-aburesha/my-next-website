@@ -135,8 +135,8 @@ function Project4() {
                 <h2>Hi-Fi Prototype</h2>
                 <hr />
                 <p>
-                    By clicking on the prototype you can easily navigate the
-                    page.
+                    Click to enlarge. Prototype could be navigated using the
+                    hamburger menu on the top right.
                 </p>
                 <iframe
                     style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
