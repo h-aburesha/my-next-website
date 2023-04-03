@@ -21,23 +21,23 @@ function ProjectImage({ id }: { id: number }) {
     const projectTitles = [
         {
             title: "Bold",
-            description: "Technology: React Native",
+            description: "React Native - Mobile Application",
         },
         {
             title: "Jam",
-            description: "Technology: React",
+            description: "React - Social Network Platform",
         },
         {
             title: "Pixla",
-            description: "Technology: Vue",
+            description: "Vue - Image Board",
         },
         {
             title: "Till Van Loosen",
-            description: "UX Study & UI Figma",
+            description: "UX Study & Figma UI",
         },
         {
             title: "Bold Fitness Tracker",
-            description: "UX Study & UI Figma",
+            description: "UX Study & Figma UI",
         },
     ];
 
