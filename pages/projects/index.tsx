@@ -45,7 +45,7 @@ function ProjectImage({ id }: { id: number }) {
         <>
             <section>
                 <div ref={ref}>
-                    <a href={`/projects/${id}`}>
+                    <Link href={`/projects/${id}`}>
                         <Image
                             className="projects-image"
                             src={`/${id}.jpg`}
@@ -53,7 +53,7 @@ function ProjectImage({ id }: { id: number }) {
                             width={1000}
                             height={500}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="projects-title-div">
                     <motion.h2 style={{ y }}>
@@ -63,12 +63,35 @@ function ProjectImage({ id }: { id: number }) {
                         style={{
                             y: y,
                             fontWeight: "lighter",
-                            fontStyle: "italic",
+                            fontStyle: "normal",
                             marginTop: "10px",
                         }}
                     >
                         {projectTitles[id - 1].description}
                     </motion.p>
+                    <motion.h5>
+                        <Link
+                            style={{
+                                fontWeight: "lighter",
+
+                                fontStyle: "italic",
+                                textDecoration: "none",
+                                fontSize: "1em",
+                                fontFamily: "Arial, sans-serif",
+                                color: "white",
+                                transition: "color 0.3s ease",
+                            }}
+                            href={`/projects/${id}`}
+                            onMouseOver={(e) =>
+                                (e.currentTarget.style.color = "#646cff")
+                            }
+                            onMouseOut={(e) =>
+                                (e.currentTarget.style.color = "white")
+                            }
+                        >
+                            → More details ...
+                        </Link>
+                    </motion.h5>
                 </div>
             </section>
         </>
