@@ -9,14 +9,21 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
-function useParallax(value: MotionValue<number>, distance: number) {
-    return useTransform(value, [0, 1], [-distance, distance]);
+function useParallax(value: MotionValue<number>, percentage: number) {
+    return useTransform(value, [0, 1], [-percentage, percentage]);
 }
 
 function ProjectImage({ id }: { id: number }) {
     const ref = useRef(null);
+
     const { scrollYProgress } = useScroll({ target: ref });
-    const y = useParallax(scrollYProgress, 300);
+
+    let y;
+    if (typeof window !== "undefined") {
+        const screenHeight = window.innerHeight;
+        const percentage = screenHeight * 0.1;
+        y = useParallax(scrollYProgress, percentage);
+    }
 
     const projectTitles = [
         {
