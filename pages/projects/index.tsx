@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { useEffect, useState } from "react";
 import {
     motion,
     useScroll,
@@ -9,14 +10,21 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
-function useParallax(value: MotionValue<number>, distance: number) {
-    return useTransform(value, [0, 1], [-distance, distance]);
-}
-
 function ProjectImage({ id }: { id: number }) {
+    const [isMobile, setIsMobile] = useState(false);
+
+    function useParallax(value: MotionValue<number>, distance: number) {
+        useEffect(() => {
+            setIsMobile(window.innerWidth < 768);
+        }, []);
+
+        const newDistance = isMobile ? distance / 2 : distance;
+        return useTransform(value, [0, 1], [-newDistance, newDistance]);
+    }
+
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
-    const y = useParallax(scrollYProgress, 300);
+    const y = useParallax(scrollYProgress, 200);
 
     const projectTitles = [
         {
@@ -50,8 +58,8 @@ function ProjectImage({ id }: { id: number }) {
                             className="projects-image"
                             src={`/${id}.jpg`}
                             alt={projectTitles[id - 1].description}
-                            width={1000}
-                            height={500}
+                            width={isMobile ? undefined : 1000}
+                            height={isMobile ? undefined : 500}
                         />
                     </Link>
                 </div>
@@ -68,12 +76,10 @@ function ProjectImage({ id }: { id: number }) {
                         }}
                     >
                         {projectTitles[id - 1].description}
-                    </motion.p>
-                    <motion.h5>
+
                         <Link
                             style={{
                                 fontWeight: "lighter",
-
                                 fontStyle: "italic",
                                 textDecoration: "none",
                                 fontSize: "1em",
@@ -89,9 +95,10 @@ function ProjectImage({ id }: { id: number }) {
                                 (e.currentTarget.style.color = "white")
                             }
                         >
-                            → More details ...
+                            <br />
+                            More details ...
                         </Link>
-                    </motion.h5>
+                    </motion.p>
                 </div>
             </section>
         </>
