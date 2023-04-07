@@ -17,11 +17,8 @@ function ProjectImage({ id }: { id: number }) {
         useEffect(() => {
             setIsMobile(window.innerWidth < 768);
         }, []);
-        if (isMobile) {
-            return value;
-        }
 
-        const newDistance = distance;
+        const newDistance = isMobile ? distance / 2 : distance;
         return useTransform(value, [0, 1], [-newDistance, newDistance]);
     }
 
