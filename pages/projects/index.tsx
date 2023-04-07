@@ -18,13 +18,17 @@ function ProjectImage({ id }: { id: number }) {
             setIsMobile(window.innerWidth < 768);
         }, []);
 
-        const newDistance = isMobile ? distance / 2 : distance;
-        return useTransform(value, [0, 1], [-newDistance, newDistance]);
+        if (isMobile) {
+            return value;
+        } else {
+            const newDistance = distance;
+            return useTransform(value, [0, 1], [-newDistance, newDistance]);
+        }
     }
 
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
-    const y = useParallax(scrollYProgress, 200);
+    const y = useParallax(scrollYProgress, isMobile ? 0 : 200);
 
     const projectTitles = [
         {
