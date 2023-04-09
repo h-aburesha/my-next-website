@@ -24,7 +24,7 @@ function ProjectImage({ id }: { id: number }) {
 
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
-    const y = useParallax(scrollYProgress, 200);
+    const y = useParallax(scrollYProgress, 300);
 
     const projectTitles = [
         {
