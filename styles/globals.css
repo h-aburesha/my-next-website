@@ -11,6 +11,7 @@ body {
     --red: #fd002e;
     --orange: #fd7702;
     --yellow: #ffbb00;
+    --neon-purple: #646cff;
 
     --background: var(--black);
     --accent: var(--white);
