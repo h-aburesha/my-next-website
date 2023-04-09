@@ -98,9 +98,9 @@ function ProjectImage({ id }: { id: number }) {
                         <Link
                             style={{
                                 fontWeight: "lighter",
-                                fontStyle: "italic",
+                                fontStyle: "normal",
                                 textDecoration: "none",
-                                fontSize: "1em",
+                                fontSize: "0.8em",
                                 fontFamily: "Arial, sans-serif",
                                 color: "white",
                                 transition: "color 0.3s ease",
