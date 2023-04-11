@@ -180,7 +180,7 @@ article {
     top: 0;
     left: 0;
     right: 0;
-    height: 4px;
+    height: 6px;
     background: var(--neon-purple);
     transform-origin: 0%;
 }
@@ -238,15 +238,6 @@ button:hover {
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
-}
-
-.navigation-bar {
-    display: flex;
-    position: relative;
-    z-index: 1;
-    padding: 1em;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 .navigation-bar button {
@@ -320,4 +311,38 @@ hr {
 
 .icons a:active {
     transform: translateY(2px); /* adjust to match your preference */
+}
+
+.navigation-bar {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-image: radial-gradient(
+        rgba(0, 0, 0, 0) 1px,
+        var(--background) 1px
+    );
+    background-size: 4px 4px;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    font-size: 14px;
+    line-height: 14px;
+    z-index: 1;
+}
+
+.navigation-bar::before {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--accent);
+    opacity: 0.2;
 }

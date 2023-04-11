@@ -55,6 +55,7 @@ function ProjectImage({ id }: { id: number }) {
                 <div
                     style={{
                         position: "fixed",
+                        justifyContent: "flex-start",
                     }}
                     className="navigation-bar"
                 >
