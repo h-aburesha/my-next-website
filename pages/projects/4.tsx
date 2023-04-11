@@ -42,7 +42,7 @@ function Project4() {
             />
 
             <article>
-                <h2>Introduction</h2>
+                <h2>INTRODUCTION</h2>
                 <hr />
                 <p>
                     Till Van Loosen is a Berlin based Photographer and Video
@@ -51,7 +51,7 @@ function Project4() {
                     usability to users in terms of overviewing projects & access
                     details easily.
                 </p>
-                <h2>Research</h2>
+                <h2>RESEARCH</h2>
                 <hr />
                 <Image
                     src={till2}
@@ -68,7 +68,7 @@ function Project4() {
                     displaying cohesive style, former collaborations and
                     structure.
                 </p>
-                <h2>Business Analysis Findings</h2>
+                <h2>BUSINESS ANALYSIS FINDINGS</h2>
                 <hr />
                 <ul>
                     <li>
@@ -85,7 +85,7 @@ function Project4() {
                         and easy navigation
                     </li>
                 </ul>
-                <h2>User Persona</h2>
+                <h2>USER PERSONA</h2>
                 <hr />
                 <Image
                     src={till3}
@@ -93,7 +93,7 @@ function Project4() {
                     alt="user persona"
                     width={800}
                 />
-                <h2>Problem Statement</h2>
+                <h2>PROBLEM STATEMENT</h2>
                 <hr />
                 <ul>
                     <li>
@@ -116,7 +116,7 @@ function Project4() {
                         users&apos; needs and expectations.
                     </li>
                 </ul>
-                <h2>Hypothesis</h2>
+                <h2>HYPOTHESIS</h2>
                 <hr />
                 <Image
                     src={till4}
@@ -124,7 +124,7 @@ function Project4() {
                     alt="hypothesis"
                     width={800}
                 />
-                <h2>Mood Board</h2>
+                <h2>MOOD BOARD</h2>
                 <hr />
                 <Image
                     src={till5}
@@ -132,7 +132,7 @@ function Project4() {
                     alt="mood board"
                     width={800}
                 />
-                <h2>Hi-Fi Prototype</h2>
+                <h2>HI-FI PROTOTYPE</h2>
                 <hr />
                 <p>
                     Click to enlarge. Prototype could be navigated using the
