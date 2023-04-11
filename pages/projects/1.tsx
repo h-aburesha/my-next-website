@@ -46,7 +46,7 @@ function Project1() {
                 <br />
                 <code
                     style={{
-                        fontStyle: "italic",
+                        fontStyle: "normal",
                         fontWeight: "lighter",
                         fontSize: "0.8em",
                     }}
@@ -56,14 +56,14 @@ function Project1() {
             </h1>
 
             <article>
-                <h2 style={{ fontWeight: "bolder" }}>Description</h2>
+                <h2 style={{ fontWeight: "bolder" }}>DESCRIPTION</h2>
                 <hr />
                 <p>
                     A React Native fitness tracking mobile application, designed
                     based on my{" "}
                     <Link href="/projects/5">previous UX/UI Study</Link>.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>Features</h2>
+                <h2 style={{ fontWeight: "bolder" }}>FEATURES</h2>
                 <hr />
 
                 <ul>
@@ -82,7 +82,7 @@ function Project1() {
                 </ul>
 
                 <h2 style={{ fontWeight: "bolder" }}>
-                    Challenges & Motivation
+                    CHALLENGES & MOTIVATION
                 </h2>
                 <hr />
                 <p>
@@ -127,7 +127,7 @@ function Project1() {
                     launching this app to help individuals track their fitness
                     goals in a convenient and user-friendly way.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>Gallery</h2>
+                <h2 style={{ fontWeight: "bolder" }}>GALLERY</h2>
                 <Link
                     style={{ textDecoration: "none" }}
                     href="https://codesandbox.io/p/github/h-aburesha/react-native-app-bold/initApp3?file=%2FREADME.md&workspace=%257B%2522activeFilepath%2522%253A%2522%252FREADME.md%2522%252C%2522openFiles%2522%253A%255B%2522%252FREADME.md%2522%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522spaces%2522%253A%257B%2522clfi9v4ml000t3b6rcneaywca%2522%253A%257B%2522key%2522%253A%2522clfi9v4ml000t3b6rcneaywca%2522%252C%2522name%2522%253A%2522Terminal%2522%252C%2522devtools%2522%253A%255B%257B%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clg0rgacn0030g4jo4svq1q4w%2522%252C%2522key%2522%253A%2522clg0rga6d00553b6r8lf5dexg%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D%257D%252C%2522currentSpace%2522%253A%2522clfi9v4ml000t3b6rcneaywca%2522%252C%2522spacesOrder%2522%253A%255B%2522clfi9v4ml000t3b6rcneaywca%2522%255D%252C%2522hideCodeEditor%2522%253Afalse%257D"
