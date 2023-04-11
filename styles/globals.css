@@ -11,7 +11,8 @@ body {
     --red: #fd002e;
     --orange: #fd7702;
     --yellow: #ffbb00;
-    --neon-purple: #646cff;
+    --neon-purple: #4952ff;
+    --green: #16bb00;
 
     --background: var(--black);
     --accent: var(--white);
@@ -179,8 +180,8 @@ article {
     top: 0;
     left: 0;
     right: 0;
-    height: 10px;
-    background: var(--red);
+    height: 4px;
+    background: var(--neon-purple);
     transform-origin: 0%;
 }
 
