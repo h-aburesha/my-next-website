@@ -47,7 +47,7 @@ function Project2() {
                 <br />
                 <code
                     style={{
-                        fontStyle: "italic",
+                        fontStyle: "normal",
                         fontWeight: "lighter",
                         fontSize: "0.8em",
                     }}
@@ -57,13 +57,13 @@ function Project2() {
             </h1>
 
             <article>
-                <h2 style={{ fontWeight: "bolder" }}>Description</h2>
+                <h2 style={{ fontWeight: "bolder" }}>DESCRIPTION</h2>
                 <hr />
                 <p>
                     A social network platform using React/Redux, Express-Server
                     & PostgresSQL.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>Features</h2>
+                <h2 style={{ fontWeight: "bolder" }}>FEATURES</h2>
                 <hr />
                 <ul>
                     <li>
@@ -93,7 +93,7 @@ function Project2() {
                         connections and expand their network as desired.
                     </li>
                 </ul>
-                <h2 style={{ fontWeight: "bolder" }}>Challenges</h2>
+                <h2 style={{ fontWeight: "bolder" }}>CHALLENGES</h2>
                 <hr />
                 <p>
                     Learning React: As a first-time React user, I faced a steep
@@ -129,7 +129,7 @@ function Project2() {
                     browser DevTools and graphical representations of state that
                     were quite helpful.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>Gallery</h2>
+                <h2 style={{ fontWeight: "bolder" }}>GALLERY</h2>
                 <hr />
                 <br />
 
