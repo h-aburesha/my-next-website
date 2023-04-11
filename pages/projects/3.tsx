@@ -45,7 +45,7 @@ function Project3() {
                 <br />
                 <code
                     style={{
-                        fontStyle: "italic",
+                        fontStyle: "normal",
                         fontWeight: "lighter",
                         fontSize: "0.8em",
                     }}
@@ -55,14 +55,14 @@ function Project3() {
             </h1>
 
             <article>
-                <h2 style={{ fontWeight: "bolder" }}>Description</h2>
+                <h2 style={{ fontWeight: "bolder" }}>DESCRIPTION</h2>
                 <hr />
                 <p>
                     A Vue.js single page Images Gallery application. The
                     Back-end is over an express-Server, PostgresSQL database &
                     AWS Bucket for images upload.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>Features</h2>
+                <h2 style={{ fontWeight: "bolder" }}>FEATURES</h2>
                 <hr />
                 <ul>
                     <li>
@@ -99,7 +99,7 @@ function Project3() {
                         recorded and displayed in real-time.
                     </li>
                 </ul>
-                <h2 style={{ fontWeight: "bolder" }}>Challenges</h2>
+                <h2 style={{ fontWeight: "bolder" }}>CHALLENGES</h2>
                 <hr />
                 <p>
                     Syntax Learning Curve: Coming from a non-framework
@@ -125,7 +125,7 @@ function Project3() {
                     develop your skills and gain exposure to new technologies
                     that you could leverage in future projects.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>Gallery</h2>
+                <h2 style={{ fontWeight: "bolder" }}>GALLERY</h2>
                 <hr />
                 <br />
 
