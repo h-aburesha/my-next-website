@@ -40,7 +40,9 @@ function Project5() {
             />
 
             <article>
-                <h2>INTRODUCTION & MOTIVATION</h2>
+                <h2 style={{ fontWeight: "bolder" }}>
+                    INTRODUCTION & MOTIVATION
+                </h2>
                 <hr />
                 <p>
                     My motivation to design this app was rather personal. On one
@@ -50,7 +52,7 @@ function Project5() {
                     anyone who wants to track their macronutrients to meet their
                     weight goals, be it lose or gain.
                 </p>
-                <h2>DATA INSIGHTS</h2>
+                <h2 style={{ fontWeight: "bolder" }}>DATA INSIGHTS</h2>
                 <hr />
                 <ul>
                     <li>
@@ -70,14 +72,14 @@ function Project5() {
                         and with too many functionalities.
                     </li>
                 </ul>
-                <h2>PROBLEM STATEMENT</h2>
+                <h2 style={{ fontWeight: "bolder" }}>PROBLEM STATEMENT</h2>
                 <hr />
                 <p>
                     By providing users with an App to trace their intake of
                     calories and macronutrients, it will help them achieve
                     weight goals.
                 </p>
-                <h2>PERSONA</h2>
+                <h2 style={{ fontWeight: "bolder" }}>PERSONA</h2>
                 <hr />
 
                 <Image
@@ -88,7 +90,7 @@ function Project5() {
                     priority={true}
                     loading="eager"
                 />
-                <h2>MOOD BOARD</h2>
+                <h2 style={{ fontWeight: "bolder" }}>MOOD BOARD</h2>
                 <hr />
                 <Image
                     src={boldux3}
@@ -98,7 +100,7 @@ function Project5() {
                     priority={true}
                     loading="eager"
                 />
-                <h2>HI-FI PROTOTYPE</h2>
+                <h2 style={{ fontWeight: "bolder" }}>HI-FI PROTOTYPE</h2>
                 <hr />
                 <p>
                     Click to enlarge. Prototype could by clicking outside to
