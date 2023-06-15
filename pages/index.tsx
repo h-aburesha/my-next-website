@@ -16,10 +16,10 @@ export default function Home() {
             <div className="landing-container">
                 <header className="header">
                     <code className="welcome-message">
-                        FULL-STACK WEB DEVELOPER & UX/UI DESIGNER.
+                        FULL-STACK SOFTWARE DEVELOPER & UX/UI DESIGNER.
                         <hr />
                     </code>
-                    <code> -- Based in Berlin</code>
+                    <code> -- Based in Berlin </code>
                 </header>
             </div>
         </>
