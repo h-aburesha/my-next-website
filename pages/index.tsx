@@ -4,6 +4,8 @@ import Navbar from "../Components/Navbar/Navbar";
 import { Inter } from "next/font/google";
 
 import ParticlesContainer from "./particles";
+import Link from "next/link";
+import { FaDownload } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +21,8 @@ export default function Home() {
                         FULL-STACK WEB DEVELOPER & UX/UI DESIGNER.
                         <hr />
                     </code>
-                    <code> -- Based in Berlin </code>
+                    <code>
+-- For social accounts & resume, please visit footer.</code>
                 </header>
             </div>
         </>
