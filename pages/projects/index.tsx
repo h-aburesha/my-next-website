@@ -35,6 +35,10 @@ function ProjectImage({ id }: { id: number }) {
       title: "Bold Fitness Tracker",
       description: "UX Study & Figma UI",
     },
+    {
+        title: "Verbally Meeting Assistant",
+        description: "User Dashboard & Settings Page",
+      },
   ];
 
   return (
@@ -101,7 +105,7 @@ export default function Projects() {
 
   return (
     <>
-      {[1, 2, 3, 4, 5].map((image) => (
+      {[6,5,4,3,2,1].map((image) => (
         <ProjectImage key={image} id={image} />
       ))}
       <motion.div className="progress" style={{ scaleX }} />
