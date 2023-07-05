@@ -2,6 +2,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import verbally1 from "../../public/verbally_pics/homepage.png"
+import modalPopupImage from "../../public/verbally_pics/modal-popup.png"
 
 
 function Project6() {
@@ -48,6 +49,14 @@ function Project6() {
                    User dashboard and settings page providing customizations to the applications features.
                 </p>
                 <h2 style={{ fontWeight: "bolder" }}>DATA INSIGHTS</h2>
+                <Image
+                src={modalPopupImage}
+                placeholder="blur"
+                alt="verbally's meeting assistant home page"
+                width={800}
+                priority={true}
+                loading="eager"
+            />
                 <hr />
                 <ul>
                     <li>
