@@ -1,8 +1,9 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import verbally1 from "../../public/verbally_pics/homepage.png"
-import modalPopupImage from "../../public/verbally_pics/modal-popup.png"
+import verballyHomePageImage from "../../public/verbally_pics/homepage.png"
+import verballyModalPopupImage from "../../public/verbally_pics/modal-popup.png"
+import verballyTooltipTextImage from "../../public/verbally_pics/tooltip-text.png"
 
 
 function Project6() {
@@ -34,7 +35,7 @@ function Project6() {
 
             <article>
             <Image
-                src={verbally1}
+                src={verballyHomePageImage}
                 placeholder="blur"
                 alt="verbally's meeting assistant home page"
                 width={800}
@@ -50,34 +51,28 @@ function Project6() {
                 </p>
                 <h2 style={{ fontWeight: "bolder" }}>DATA INSIGHTS</h2>
                 <Image
-                src={modalPopupImage}
+                src={verballyModalPopupImage}
                 placeholder="blur"
                 alt="verbally's meeting assistant home page"
-                width={800}
+                width={600}
                 priority={true}
                 loading="eager"
+                style={{borderRadius:"4px", boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px'}}
             />
                 <hr />
-                <ul>
-                    <li>
-                        User interviews showed that 80& found it hard to reach
-                        weight goals.
-                    </li>
-                    <li>
-                        Around 70% of users interested in reaching a weight goal
-                        never tracked their macronutrients.
-                    </li>
-                    <li>
-                        75% however, believed they should track their caloric
-                        intake.
-                    </li>
-                    <li>
-                        Users found most of the apps on the market overwhelming
-                        and with too many functionalities.
-                    </li>
-                </ul>
+               
                 <h2 style={{ fontWeight: "bolder" }}>PROBLEM STATEMENT</h2>
                 <hr />
+                <Image
+                src={verballyTooltipTextImage}
+                placeholder="blur"
+                alt="verbally's meeting assistant home page"
+                width={600}
+                priority={true}
+                loading="eager"
+                style={{borderRadius:"4px", boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px'}}
+            />
+            <br />
                 <p>
                     By providing users with an App to trace their intake of
                     calories and macronutrients, it will help them achieve
