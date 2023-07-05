@@ -1,9 +1,8 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import boldux1 from "../../public/bold_ux/boldcover.png";
-import boldux2 from "../../public/bold_ux/persona.png";
-import boldux3 from "../../public/bold_ux/moodboard.png";
+import verbally1 from "../../public/verbally_pics/homepage.png"
+
 
 function Project6() {
     const { scrollYProgress } = useScroll();
@@ -33,12 +32,20 @@ function Project6() {
 
 
             <article>
+            <Image
+                src={verbally1}
+                placeholder="blur"
+                alt="verbally's meeting assistant home page"
+                width={800}
+                priority={true}
+                loading="eager"
+            />
                 <h2 style={{ fontWeight: "bolder" }}>
-                    INTRODUCTION & MOTIVATION
+                    SCOPE OF THE PROJECT
                 </h2>
                 <hr />
                 <p>
-                   lorem ipsum
+                   User dashboard and settings page providing customizations to the applications features.
                 </p>
                 <h2 style={{ fontWeight: "bolder" }}>DATA INSIGHTS</h2>
                 <hr />

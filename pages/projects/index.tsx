@@ -105,7 +105,7 @@ export default function Projects() {
 
   return (
     <>
-      {[6,5,4,3,2,1].map((image) => (
+      {[6,1,2,4,5,3].map((image) => (
         <ProjectImage key={image} id={image} />
       ))}
       <motion.div className="progress" style={{ scaleX }} />
