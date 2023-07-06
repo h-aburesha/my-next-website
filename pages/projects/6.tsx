@@ -4,6 +4,10 @@ import Image from "next/image";
 import verballyHomePageImage from "../../public/verbally_pics/homepage.png"
 import verballyModalPopupImage from "../../public/verbally_pics/modal-popup.png"
 import verballyTooltipTextImage from "../../public/verbally_pics/tooltip-text.png"
+import verballyVerticalNavImage from "../../public/verbally_pics/vertical-nav.gif"
+import verballyTooltipImage from "../../public/verbally_pics/tooltip-img.gif"
+import verballySkeletonsImage from "../../public/verbally_pics/skeletons.gif"
+import verballySpinnerImage from "../../public/verbally_pics/spinner.gif"
 
 
 function Project6() {
@@ -73,6 +77,46 @@ function Project6() {
                 style={{borderRadius:"4px", boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px'}}
             />
             <br />
+
+            <Image
+                src={verballyVerticalNavImage}
+                
+                alt="verbally's meeting assistant home page"
+                width={600}
+                priority={true}
+                loading="eager"
+                style={{borderRadius:"4px", boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px'}}
+            />
+            <br />
+
+            <Image
+                src={verballyTooltipImage}
+                alt="verbally's meeting assistant home page"
+                width={600}
+                priority={true}
+                loading="eager"
+                style={{borderRadius:"4px", boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px'}}
+            />
+            <br />
+            <Image
+                src={verballySkeletonsImage}
+                alt="verbally's meeting assistant home page"
+                width={600}
+                priority={true}
+                loading="eager"
+                style={{borderRadius:"4px", boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px'}}
+            />
+            <br />
+            <Image
+                src={verballySpinnerImage}
+                alt="verbally's meeting assistant home page"
+                width={600}
+                priority={true}
+                loading="eager"
+                style={{borderRadius:"4px", boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px'}}
+            />
+            <br />
+
                 <p>
                     By providing users with an App to trace their intake of
                     calories and macronutrients, it will help them achieve
