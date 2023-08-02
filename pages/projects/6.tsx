@@ -1,6 +1,9 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import { FaLink } from "react-icons/fa";
+
+
 import verballyHomePageImage from "../../public/verbally_pics/homepage.png"
 import verballyModalPopupImage from "../../public/verbally_pics/modal-popup.png"
 import verballyTooltipTextImage from "../../public/verbally_pics/tooltip-text.png"
@@ -35,6 +38,31 @@ function Project6() {
                 </div>
             </nav>
 
+            <h1>
+                <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
+                    Verbally GmbH
+                </code>
+                <br />
+                <code style={{ fontWeight: "bold", fontSize: "1.2em" }}>
+                User Settings Page{" "}
+                </code>
+                <a
+                    target={"_blank"}
+                    href="https://app.verbally.io/"
+                >
+                    <FaLink />
+                </a>
+                <br />
+                <code
+                    style={{
+                        fontStyle: "normal",
+                        fontWeight: "lighter",
+                        fontSize: "0.8em",
+                    }}
+                >
+                    "NextJS, Redux Toolkit Web App"
+                </code>
+            </h1>
 
 
             <article>
