@@ -87,10 +87,9 @@ function Project6() {
                 <Image
                     src={verballyModalPopupImage}
                     placeholder="blur"
+                    loading="eager"
                     alt="verbally's meeting assistant home page"
                     width={600}
-                    priority={true}
-                    loading="eager"
                     style={{
                         borderRadius: "4px",
                         boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
@@ -105,10 +104,9 @@ function Project6() {
                 <Image
                     src={verballyTooltipTextImage}
                     placeholder="blur"
+                    loading="eager"
                     alt="verbally's meeting assistant home page"
                     width={600}
-                    priority={true}
-                    loading="eager"
                     style={{
                         borderRadius: "4px",
                         boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
@@ -124,8 +122,6 @@ function Project6() {
                     src={verballyVerticalNavImage}
                     alt="verbally's meeting assistant home page"
                     width={600}
-                    priority={true}
-                    loading="eager"
                     style={{
                         borderRadius: "4px",
                         boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
@@ -133,7 +129,7 @@ function Project6() {
                 />
                 <br />
                 <h3 style={{ fontWeight: "bolder" }}>
-                    3- TOOLTIP IMAGE DISPLAY
+                    4- TOOLTIP IMAGE DISPLAY
                 </h3>
                 <hr />
                 <br />
@@ -141,8 +137,6 @@ function Project6() {
                     src={verballyTooltipImage}
                     alt="verbally's meeting assistant home page"
                     width={600}
-                    priority={true}
-                    loading="eager"
                     style={{
                         borderRadius: "4px",
                         boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
@@ -150,7 +144,7 @@ function Project6() {
                 />
                 <br />
                 <h3 style={{ fontWeight: "bolder" }}>
-                    4- PLACEHOLDER SKELETONS
+                    5- PLACEHOLDER SKELETONS
                 </h3>
                 <hr />
                 <p>
@@ -163,46 +157,26 @@ function Project6() {
                     src={verballySkeletonsImage}
                     alt="verbally's meeting assistant home page"
                     width={600}
-                    priority={true}
-                    loading="eager"
                     style={{
                         borderRadius: "4px",
                         boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
                     }}
                 />
+                <br />
+                <h3 style={{ fontWeight: "bolder" }}>
+                    6- SPINNER PLACEHOLDER FOR IMAGES
+                </h3>
+                <hr />
                 <br />
                 <Image
                     src={verballySpinnerImage}
                     alt="verbally's meeting assistant home page"
                     width={600}
-                    priority={true}
-                    loading="eager"
                     style={{
                         borderRadius: "4px",
                         boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
                     }}
                 />
-                <br />
-
-                <p>
-                    By providing users with an App to trace their intake of
-                    calories and macronutrients, it will help them achieve
-                    weight goals.
-                </p>
-                <h2 style={{ fontWeight: "bolder" }}>PERSONA</h2>
-                <hr />
-
-                <h2 style={{ fontWeight: "bolder" }}>MOOD BOARD</h2>
-                <hr />
-
-                <h2 style={{ fontWeight: "bolder" }}>HI-FI PROTOTYPE</h2>
-                <hr />
-                <p>
-                    Click to enlarge. Prototype could by clicking outside to
-                    give navigation hints or by the use of the arrows under the
-                    prototype.
-                </p>
-
                 <br />
             </article>
             <br />
