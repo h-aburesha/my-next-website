@@ -10,6 +10,7 @@ import verballyVerticalNavImage from "../../public/verbally_pics/vertical-nav.gi
 import verballyTooltipImage from "../../public/verbally_pics/tooltip-img.gif";
 import verballySkeletonsImage from "../../public/verbally_pics/skeletons.gif";
 import verballySpinnerImage from "../../public/verbally_pics/spinner.gif";
+import verballyTimedDialog from "../../public/verbally_pics/timer-dialog.gif";
 
 function Project6() {
     const { scrollYProgress } = useScroll();
@@ -37,11 +38,11 @@ function Project6() {
             </nav>
 
             <h1>
-                <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
+                <code style={{ fontWeight: "bold", fontSize: "1.2em" }}>
                     Verbally GmbH
                 </code>
                 <br />
-                <code style={{ fontWeight: "bold", fontSize: "1.2em" }}>
+                <code style={{ fontWeight: "bold", fontSize: "1em" }}>
                     User Settings Page{" "}
                 </code>
                 <a target={"_blank"} href="https://app.verbally.io/">
@@ -170,6 +171,21 @@ function Project6() {
                 <br />
                 <Image
                     src={verballySpinnerImage}
+                    alt="verbally's meeting assistant home page"
+                    width={600}
+                    style={{
+                        borderRadius: "4px",
+                        boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
+                    }}
+                />
+                <br />
+                <h3 style={{ fontWeight: "bolder" }}>
+                    7- TIMED DIALOG TO ALLOW TIME FOR SETTINGS PROPAGATION
+                </h3>
+                <hr />
+                <br />
+                <Image
+                    src={verballyTimedDialog}
                     alt="verbally's meeting assistant home page"
                     width={600}
                     style={{
