@@ -1,3 +1,5 @@
+"use client";
+
 import { useRef } from "react";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -22,11 +24,9 @@ function MeshComponent() {
 
 function Shiba() {
     return (
-        <div className="flex justify-center items-center h-screen">
+        <div>
             <Canvas style={{ height: "100vh", width: "100vw" }}>
                 <MeshComponent />
-                <ambientLight />
-                <pointLight position={[10, 10, 10]} />
                 <OrbitControls />
             </Canvas>
         </div>

@@ -1,12 +1,7 @@
 import Shiba from "@/Components/Shiba/shiba";
-import React from "react";
 
 const ThreeJs = () => {
-    return (
-        <>
-            <Shiba />
-        </>
-    );
+    return <Shiba />;
 };
 
 export default ThreeJs;
