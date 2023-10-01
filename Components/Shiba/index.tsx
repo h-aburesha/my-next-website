@@ -1,5 +1,3 @@
-"use client";
-
 import { useRef } from "react";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -7,7 +5,11 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Mesh } from "three";
 
 export const MeshComponent: React.FC = () => {
-    const fileUrl = "/shiba/scene.gltf";
+    function get3DUrl(): string {
+        return "/shiba/scene.gltf";
+    }
+
+    const fileUrl = get3DUrl();
     const mesh = useRef<Mesh>(null!);
     const gltf = useLoader(GLTFLoader, fileUrl);
 
