@@ -4,6 +4,7 @@ import Image from "next/image";
 import me from "../public/me.png";
 import myStackCover from "../public/my-stack-cover.png";
 import Link from "next/link";
+import Shiba from "@/Components/Shiba";
 
 const AboutMe = () => {
     return (
@@ -100,6 +101,7 @@ const AboutMe = () => {
                     German.
                 </p>
             </article>
+            <Shiba />
         </>
     );
 };
