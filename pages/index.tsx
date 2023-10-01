@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar";
-import ParticlesContainer from "./particles";
+import ParticlesContainer from "./components/particles";
 
 export default function Home() {
     return (
