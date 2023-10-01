@@ -6,7 +6,7 @@ import { OrbitControls } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Mesh } from "three";
 
-function MeshComponent() {
+export const MeshComponent: React.FC = () => {
     const fileUrl = "/shiba/scene.gltf";
     const mesh = useRef<Mesh>(null!);
     const gltf = useLoader(GLTFLoader, fileUrl);
@@ -20,9 +20,9 @@ function MeshComponent() {
             <primitive object={gltf.scene} />
         </mesh>
     );
-}
+};
 
-function Shiba() {
+const Shiba: React.FC = () => {
     return (
         <div>
             <Canvas style={{ height: "100vh", width: "100vw" }}>
@@ -31,6 +31,6 @@ function Shiba() {
             </Canvas>
         </div>
     );
-}
+};
 
 export default Shiba;
