@@ -1,4 +1,4 @@
-import Shiba from "@/components/Shiba/index";
+import Shiba from "@/Components/Shiba/index";
 
 const ThreeJs = () => {
     return <Shiba />;

@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../Components/Navbar/Navbar";
 import ParticlesContainer from "./particles";
 
 export default function Home() {
