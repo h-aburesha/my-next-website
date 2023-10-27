@@ -37,7 +37,7 @@ function CostSavingsCalculator() {
                 paddingTop: 50,
                 height: "100vh",
                 alignItems: "center",
-                backgroundColor: "white",
+                backgroundColor: "#fcffe9",
             }}
         >
             <TextField
