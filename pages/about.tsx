@@ -48,7 +48,7 @@ const AboutMe = () => {
                     </a>
                 </div>
             </div>
-            <article>
+            <article style={{ marginBottom: 24 }}>
                 <hr />
                 <Image
                     src={myStackCover}
@@ -60,8 +60,8 @@ const AboutMe = () => {
                 <p>
                     I am a junior full-stack developer with a background in
                     UX/UI design and DevOps account management. My passion is
-                    creating user-friendly web and mobile applications. I strong
-                    knowledge in various technologies, including NextJS,
+                    creating user-friendly web and mobile applications. I have
+                    strong knowledge in various technologies, including NextJS,
                     ReactJS, React Native, VueJS, NodeJS, TypeScript, and Figma.
                 </p>
                 <h2>CURRENTLY</h2>
