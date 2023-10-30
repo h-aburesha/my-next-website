@@ -57,7 +57,7 @@ function CostSavingsCalculator() {
                 style={textFieldStyle}
             />
             <TextField
-                label="Number of meetings per week"
+                label="Number of meetings per week for each employee"
                 type="number"
                 value={numMeetingsPerWeek}
                 onChange={(e) =>
