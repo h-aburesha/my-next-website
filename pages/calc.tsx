@@ -41,7 +41,7 @@ function CostSavingsCalculator() {
             }}
         >
             <TextField
-                label="Number of employees"
+                label="Number of employees in company"
                 type="number"
                 value={numEmployees}
                 onChange={(e) => setNumEmployees(parseInt(e.target.value))}
