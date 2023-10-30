@@ -48,7 +48,7 @@ function CostSavingsCalculator() {
                 style={textFieldStyle}
             />
             <TextField
-                label="Employee hourly rate"
+                label="Employee hourly rate (€)"
                 type="number"
                 value={employeeHourlyRate}
                 onChange={(e) =>
