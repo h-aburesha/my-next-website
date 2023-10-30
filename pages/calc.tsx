@@ -75,7 +75,7 @@ function CostSavingsCalculator() {
                 style={textFieldStyle}
             />
             <TextField
-                label="Reduction percentage"
+                label="Reduction percentage %"
                 type="number"
                 value={reductionPercentage}
                 onChange={(e) =>
