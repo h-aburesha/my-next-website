@@ -66,7 +66,7 @@ function CostSavingsCalculator() {
                 style={textFieldStyle}
             />
             <TextField
-                label="Meeting duration (in hours)"
+                label="Meeting duration (in hours 00:00)"
                 type="number"
                 value={meetingDurationHours}
                 onChange={(e) =>
