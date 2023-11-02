@@ -87,6 +87,7 @@ function CostSavingsCalculator() {
                 variant="contained"
                 color="primary"
                 onClick={handleCalculate}
+                style={{ marginBottom: 20 }}
             >
                 Calculate
             </Button>
