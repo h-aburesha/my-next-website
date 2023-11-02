@@ -91,7 +91,16 @@ function CostSavingsCalculator() {
             >
                 Calculate
             </Button>
-            <Typography variant="h5" style={{ color: "black" }}>
+            <Typography
+                variant="h5"
+                style={{
+                  color: "black",
+                  marginBottom: 20,
+                  fontWeight: "bold",
+                  fontSize: 20,
+                  textAlign: "center"
+                 }}
+            >
                 Cost savings per year: ${costSavingsPerYear}
             </Typography>
         </div>
