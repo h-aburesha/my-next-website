@@ -1,21 +1,24 @@
-This is a [Next.js](https://nextjs.org/) personal portfolio project.
+# Next.js Personal Portfolio Project
 
-## Getting Started
+This is a personal portfolio project built with [Next.js](https://nextjs.org/). The project showcases my skills, projects, and experiences as a software developer.
 
-First, run the development server:
+## Prerequisites
+
+Before you begin, please ensure you have met the following requirements:
+
+- You have installed the latest version of [Node.js and npm](https://nodejs.org/en/download/).
+
+## Installation
+
+To install the project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/h-aburesha/my-next-website.git`
+2. Navigate into the project directory: `cd my-next-website`
+3. Install the dependencies: `npm install`
+
+## Usage
+
+To start the development server, run the following command:
 
 ```bash
 npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## For any further questions
-
-Leave a comment or reach out to me on LinkedIn
