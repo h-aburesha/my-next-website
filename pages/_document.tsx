@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Footer from "./components/footer";
-import me from "./public/me.png";
+
+
 export default function Document() {
     return (
         <Html lang="en">
@@ -11,7 +12,7 @@ export default function Document() {
                 />
                 <meta property="og:title" content="Hassan Aburesha" />
                 <meta property="og:description" content="Hassan Aburesha's Portfolio" />
-                <meta property="og:image" content={me.toString()} />
+                <meta property="og:image" content="/me.png" />
                 <meta property="og:url" content="https://www.aburesha.com/" />
                 <meta property="og:type" content="website" />
                 <meta property="og:site_name" content="Hassan Aburesha's Portfolio" />
