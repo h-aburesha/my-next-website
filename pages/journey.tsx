@@ -18,7 +18,6 @@ interface JourneyProps {
 }
 
 
-
 const Journey: React.FC<JourneyProps> = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -65,7 +64,7 @@ const Journey: React.FC<JourneyProps> = () => {
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia component="img" sx={{ width: 150, height: 150 }} image={point.imageUrl} title={point.title} />
               <CardContent>
-                <Typography variant="h5" sx={{ fontWeight: 'bold' }}>{point.title}</Typography> // Make the title bold
+                <Typography variant="h5" sx={{ fontWeight: 'bold' }}>{point.title}</Typography>
                 <Typography variant="body2">{point.paragraph}</Typography>
               </CardContent>
             </Card>
