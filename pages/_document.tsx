@@ -9,6 +9,14 @@ export default function Document() {
                     name="google-site-verification"
                     content="Dn8khY8NOOtwdCmKNweUxEqzngzd5GYmEbMOJd9fh_0"
                 />
+                <meta property="og:title" content="Hassan Aburesha" />
+                <meta property="og:description" content="Hassan Aburesha's Portfolio" />
+                <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BASE_URL}/me.png`} />                <meta property="og:url" content="Your Website URL" />
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content="Hassan Aburesha's Portfolio" />
+                <meta name="robots" content="index, follow" />
+                <meta name="author" content="Hassan Aburesha" />
+                <meta name="keywords" content="Developer,UX/UI,Berlin" />
             </Head>
             <body>
                 <Main />
