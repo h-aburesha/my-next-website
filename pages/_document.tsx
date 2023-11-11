@@ -12,7 +12,7 @@ export default function Document() {
                 />
                 <meta property="og:title" content="Hassan Aburesha" />
                 <meta property="og:description" content="Hassan Aburesha's Portfolio" />
-                <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BASE_URL}/me.png`} />
+                <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BASE_URL}/website-small.png`} />
                 <meta property="og:url" content="https://www.aburesha.com/" />
                 <meta property="og:type" content="website" />
                 <meta property="og:site_name" content="Hassan Aburesha's Portfolio" />
