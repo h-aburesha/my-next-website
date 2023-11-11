@@ -29,6 +29,7 @@ const Journey: React.FC<JourneyProps> = () => {
       setActiveIndex(prevIndex => prevIndex - 1);
     }
   };
+
   const journeyPoints: JourneyPoint[] = [
     {
       imageUrl: 'https://via.placeholder.com/150',
@@ -61,7 +62,7 @@ const Journey: React.FC<JourneyProps> = () => {
             animate={{ y: index === activeIndex ? 0 : -100 }}
             transition={{ duration: 0.5 }}
           >
-            <Card sx={{ maxWidth: 345 }}> // Set max-width for the card
+            <Card sx={{ maxWidth: 345 }}>
               <CardMedia component="img" sx={{ width: 150, height: 150 }} image={point.imageUrl} title={point.title} />
               <CardContent>
                 <Typography variant="h5" sx={{ fontWeight: 'bold' }}>{point.title}</Typography> // Make the title bold
