@@ -10,7 +10,7 @@ const LandingContainer = () => {
           <hr />
         </motion.code>
         <motion.code initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 2, duration: 1 }}>
-          For social accounts & resume, please visit footer.
+          For Github profile, please visit footer.
         </motion.code>
       </header>
     </motion.div>

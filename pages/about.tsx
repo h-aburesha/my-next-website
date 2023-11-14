@@ -34,12 +34,12 @@ const AboutMe = () => {
                     <code>Hassan Aburesha</code>
                 </h1>
                 <div className="icons">
-                    <a
+                    {/*<a
                         target={"_blank"}
                         href="https://www.linkedin.com/in/haburesha/"
                     >
                         <FaLinkedin />
-                    </a>
+                    </a>*/}
                     <a target={"_blank"} href="https://github.com/h-aburesha">
                         <FaGithub />
                     </a>
