@@ -35,7 +35,7 @@ export default function Document() {
                 <meta property="og:site_name" content="Hassan Aburesha's Portfolio" />
                 <meta name="robots" content="index, follow" />
                 <meta name="author" content="Hassan Aburesha" />
-                <meta name="keywords" content="Developer,UX/UI,Berlin" />
+                <meta name="keywords" content="Developer,UX/UI,Berlin,designer" />
                 <link rel="canonical" href="https://www.aburesha.com/" />
             </Head>
             <body>
