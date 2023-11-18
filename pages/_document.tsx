@@ -16,7 +16,6 @@ import Footer from "./components/footer";
  * - author: Defines the author of the website.
  * - keywords: Used to define keywords for search engines.
  * - canonical: Used to prevent duplicate content issues by specifying the "canonical" or "preferred" version of a web page.
- *
  * The Main component is where the page content goes, and NextScript is where Next.js will insert the necessary scripts for your application to work.
  */
 export default function Document() {
