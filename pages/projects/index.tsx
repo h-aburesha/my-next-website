@@ -44,9 +44,9 @@ function ProjectImage({ id }: { id: number }) {
 
     return (
         <>
-          <div style={{position: "fixed", width:"100%", zIndex:"+1"}}>
-            <Navbar />
-          </div>
+            <div style={{ position: "fixed", width: "100%", zIndex: "+1" }}>
+                <Navbar />
+            </div>
             <section>
                 <div ref={ref}>
                     <Link href={`/projects/${id}`}>
