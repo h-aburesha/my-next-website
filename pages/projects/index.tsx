@@ -44,7 +44,14 @@ function ProjectImage({ id }: { id: number }) {
 
     return (
         <>
-            <div style={{ position: "fixed", width: "100%", zIndex: "+1" }}>
+            <div
+                style={{
+                    position: "fixed",
+                    width: "100%",
+                    zIndex: "+1",
+                    height: "10vh",
+                }}
+            >
                 <Navbar />
             </div>
             <section>
