@@ -148,7 +148,7 @@ section {
     position: relative;
     scroll-snap-align: center;
     perspective: 500px;
-    overflow: hidden;
+    padding-top: 8%;
 }
 
 section > div {
