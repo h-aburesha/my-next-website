@@ -1,9 +1,18 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 function Navbar() {
+    const router = useRouter();
+    const pathName = router.pathname;
+
     return (
         <div className="navigation-bar">
+            {pathName !== "/" && (
+                <Link href="/">
+                    <button>HOME</button>
+                </Link>
+            )}
             <Link href="/projects">
                 <button>PROJECTS</button>
             </Link>
