@@ -336,6 +336,14 @@ hr {
     z-index: 1;
 }
 
+@media screen and (max-width: 600px) {
+    .navigation-bar {
+        justify-content: center;
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
 .navigation-bar::before {
     display: block;
     content: "";
