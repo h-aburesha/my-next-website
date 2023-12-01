@@ -6,6 +6,7 @@ import { Carousel } from "@mantine/carousel";
 import jam1 from "../../public/jam_pics/jam1.png";
 import jam2 from "../../public/jam_pics/jam2.png";
 import jam3 from "../../public/jam_pics/jam3.png";
+import Navbar from "../components/navbar";
 
 function Project2() {
     const { scrollYProgress } = useScroll();
@@ -17,23 +18,7 @@ function Project2() {
 
     return (
         <>
-            <nav>
-                <div className="navigation-bar">
-                    <Link href="/">
-                        <button>HOME</button>
-                    </Link>
-                    <Link href="/projects">
-                        <button>PROJECTS</button>
-                    </Link>
-
-                    <Link
-                        href="mailto:hassan.aburesha@gmail.com"
-                        target="_blank"
-                    >
-                        <button>EMAIL</button>
-                    </Link>
-                </div>
-            </nav>
+            <Navbar />
             <h1>
                 <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
                     JAM{" "}

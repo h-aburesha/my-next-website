@@ -4,6 +4,7 @@ import Image from "next/image";
 import boldux1 from "../../public/bold_ux/boldcover.png";
 import boldux2 from "../../public/bold_ux/persona.png";
 import boldux3 from "../../public/bold_ux/moodboard.png";
+import Navbar from "../components/navbar";
 
 function Project5() {
     const { scrollYProgress } = useScroll();
@@ -15,21 +16,7 @@ function Project5() {
 
     return (
         <>
-            <nav>
-                <div className="navigation-bar">
-                    <Link href="/">
-                        <button>HOME</button>
-                    </Link>
-                    <Link href="/projects">
-                        <button>PROJECTS</button>
-                    </Link>
-
-                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
-                        <button>EMAIL</button>
-                    </a>
-                </div>
-            </nav>
-
+            <Navbar />
             <Image
                 src={boldux1}
                 placeholder="blur"
