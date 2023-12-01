@@ -49,7 +49,6 @@ function ProjectImage({ id }: { id: number }) {
                     position: "fixed",
                     width: "100%",
                     zIndex: "+1",
-                    height: "10vh",
                 }}
             >
                 <Navbar />
