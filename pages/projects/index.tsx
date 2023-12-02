@@ -60,8 +60,8 @@ function ProjectImage({ id }: { id: number }) {
                             className="projects-image"
                             src={`/${id}.jpg`}
                             alt={projectTitles[id - 1].description}
-                            width={isMobile ? undefined : 1000}
-                            height={isMobile ? undefined : 500}
+                            width={isMobile ? 500 : 1000}
+                            height={isMobile ? 250 : 500}
                             loading="eager"
                             priority={true}
                         />
