@@ -11,6 +11,7 @@ import verballyTooltipImage from "../../public/verbally_pics/tooltip-img.gif";
 import verballySkeletonsImage from "../../public/verbally_pics/skeletons.gif";
 import verballySpinnerImage from "../../public/verbally_pics/spinner.gif";
 import verballyTimedDialog from "../../public/verbally_pics/timer-dialog.gif";
+import Navbar from "../components/navbar";
 
 function Project6() {
     const { scrollYProgress } = useScroll();
@@ -22,21 +23,7 @@ function Project6() {
 
     return (
         <>
-            <nav>
-                <div className="navigation-bar">
-                    <Link href="/">
-                        <button>HOME</button>
-                    </Link>
-                    <Link href="/projects">
-                        <button>PROJECTS</button>
-                    </Link>
-
-                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
-                        <button>EMAIL</button>
-                    </a>
-                </div>
-            </nav>
-
+            <Navbar />
             <h1>
                 <code style={{ fontWeight: "bold", fontSize: "1.2em" }}>
                     Verbally GmbH

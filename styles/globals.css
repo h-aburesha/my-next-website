@@ -282,7 +282,6 @@ hr {
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-
     display: flex;
     margin: 8px;
 }
@@ -315,7 +314,7 @@ hr {
 }
 
 .navigation-bar {
-    position: relative;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -334,6 +333,22 @@ hr {
     font-size: 14px;
     line-height: 14px;
     z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation-bar {
+        justify-content: center;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 4px;
+    }
+    .button {
+        border-radius: 4px;
+        border: 1px solid transparent;
+        padding: 0.3em 0.6em;
+        font-size: 1em;
+        margin: 0 4px;
+    }
 }
 
 .navigation-bar::before {

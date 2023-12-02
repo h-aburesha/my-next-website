@@ -6,6 +6,7 @@ import till2 from "../../public/till_pics/till2.png";
 import till3 from "../../public/till_pics/persona.png";
 import till4 from "../../public/till_pics/hypothesis.png";
 import till5 from "../../public/till_pics/mood.png";
+import Navbar from "../components/navbar";
 
 function Project4() {
     const { scrollYProgress } = useScroll();
@@ -17,21 +18,7 @@ function Project4() {
 
     return (
         <>
-            <nav>
-                <div className="navigation-bar">
-                    <Link href="/">
-                        <button>HOME</button>
-                    </Link>
-                    <Link href="/projects">
-                        <button>PROJECTS</button>
-                    </Link>
-
-                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
-                        <button>EMAIL</button>
-                    </a>
-                </div>
-            </nav>
-
+            <Navbar />
             <Image
                 src={till1}
                 placeholder="blur"

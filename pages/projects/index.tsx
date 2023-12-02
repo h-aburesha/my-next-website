@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import Navbar from "../components/navbar";
 
 function ProjectImage({ id }: { id: number }) {
     const [isMobile, setIsMobile] = useState(false);
@@ -43,6 +44,15 @@ function ProjectImage({ id }: { id: number }) {
 
     return (
         <>
+            <div
+                style={{
+                    position: "fixed",
+                    width: "100%",
+                    zIndex: "+1",
+                }}
+            >
+                <Navbar />
+            </div>
             <section>
                 <div ref={ref}>
                     <Link href={`/projects/${id}`}>
@@ -50,8 +60,8 @@ function ProjectImage({ id }: { id: number }) {
                             className="projects-image"
                             src={`/${id}.jpg`}
                             alt={projectTitles[id - 1].description}
-                            width={isMobile ? undefined : 1000}
-                            height={isMobile ? undefined : 500}
+                            width={isMobile ? 500 : 1000}
+                            height={isMobile ? 250 : 500}
                             loading="eager"
                             priority={true}
                         />
@@ -67,7 +77,6 @@ function ProjectImage({ id }: { id: number }) {
                         }}
                     >
                         {projectTitles[id - 1].description}
-
                         <Link
                             style={{
                                 fontWeight: "lighter",

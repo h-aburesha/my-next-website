@@ -8,6 +8,7 @@ import b2 from "../../public/bold_pics/b2.png";
 import b3 from "../../public/bold_pics/b3.png";
 import b4 from "../../public/bold_pics/b4.png";
 import b5 from "../../public/bold_pics/b5.png";
+import Navbar from "../components/navbar";
 
 function Project1() {
     const { scrollYProgress } = useScroll();
@@ -19,20 +20,7 @@ function Project1() {
 
     return (
         <>
-            <nav>
-                <div className="navigation-bar">
-                    <Link href="/">
-                        <button>HOME</button>
-                    </Link>
-                    <Link href="/projects">
-                        <button>PROJECTS</button>
-                    </Link>
-
-                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
-                        <button>EMAIL</button>
-                    </a>
-                </div>
-            </nav>
+            <Navbar />
             <h1>
                 <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
                     BOLD{" "}

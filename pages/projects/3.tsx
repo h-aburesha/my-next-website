@@ -6,6 +6,7 @@ import { Carousel } from "@mantine/carousel";
 import pixla1 from "../../public/pixla_pics/pixla1.png";
 import pixla2 from "../../public/pixla_pics/pixla2.png";
 import pixla3 from "../../public/pixla_pics/pixla3.gif";
+import Navbar from "../components/navbar";
 
 function Project3() {
     const { scrollYProgress } = useScroll();
@@ -17,21 +18,7 @@ function Project3() {
 
     return (
         <>
-            <nav>
-                <div className="navigation-bar">
-                    <Link href="/">
-                        <button>HOME</button>
-                    </Link>
-                    <Link href="/projects">
-                        <button>PROJECTS</button>
-                    </Link>
-
-                    <a href="mailto:hassan.aburesha@gmail.com" target="_blank">
-                        <button>EMAIL</button>
-                    </a>
-                </div>
-            </nav>
-
+            <Navbar />
             <h1>
                 <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
                     PIXLA{" "}
