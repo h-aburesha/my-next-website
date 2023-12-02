@@ -77,7 +77,6 @@ function ProjectImage({ id }: { id: number }) {
                         }}
                     >
                         {projectTitles[id - 1].description}
-
                         <Link
                             style={{
                                 fontWeight: "lighter",
