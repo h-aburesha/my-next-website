@@ -40,6 +40,10 @@ function ProjectImage({ id }: { id: number }) {
             title: "Verbally Meeting Assistant",
             description: "User Dashboard & Settings Page",
         },
+        {
+            title: "Verbally Timer",
+            description: "UX/UI Study & React App",
+        },
     ];
 
     return (
@@ -115,7 +119,7 @@ export default function Projects() {
 
     return (
         <>
-            {[6, 1, 2, 4, 5, 3].map((image) => (
+            {[7, 6, 1, 2, 4, 5, 3].map((image) => (
                 <ProjectImage key={image} id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
