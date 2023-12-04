@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import Image from "next/image";
 import me from "../public/me.png";
 import myStackCover from "../public/my-stack-cover.png";
 import Link from "next/link";
 import Navbar from "./components/navbar";
+import { ThemeContext } from "../contexts/ThemeContext";
 
 const AboutMe = () => {
+    const { theme, toggleTheme } = useContext(ThemeContext);
+
     return (
         <>
             <Navbar />
@@ -21,6 +24,7 @@ const AboutMe = () => {
                     <code>Hassan Aburesha</code>
                 </h1>
                 <div className="icons">
+                    <button onClick={toggleTheme}>Toggle Theme</button>
                     {/*<a
                         target={"_blank"}
                         href="https://www.linkedin.com/in/haburesha/"
