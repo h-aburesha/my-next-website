@@ -30,7 +30,7 @@ function Project7() {
                 </code>
                 <br />
                 <code style={{ fontWeight: "bold", fontSize: "1em" }}>
-                    User Settings Page{" "}
+                    Meeting Assistant Notifications
                 </code>
                 <a target={"_blank"} href="https://app.verbally.io/">
                     <FaLink />
@@ -43,7 +43,7 @@ function Project7() {
                         fontSize: "0.8em",
                     }}
                 >
-                    &quot;NextJS, Redux Toolkit Web App&quot;
+                    &quot;ReactJS, Redux, Figma&quot;
                 </code>
             </h1>
 
