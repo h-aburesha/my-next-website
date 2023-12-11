@@ -4,12 +4,12 @@ function Footer({ title = "All rights reserved" }) {
     return (
         <footer>
             <div className="footer-icons">
-                {/*<a
+                <a
                     target={"_blank"}
                     href="https://www.linkedin.com/in/haburesha/"
                 >
                     <FaLinkedin />
-                </a>*/}
+                </a>
                 <a target={"_blank"} href="https://github.com/h-aburesha">
                     <FaGithub />
                 </a>
