@@ -42,7 +42,7 @@ const AboutMe = () => {
                     alt="my-stack-cover"
                     placeholder="blur"
                 />
-                <h2>INTRODUCTION</h2>
+                <h2>INTRODUCTION:</h2>
                 <hr />
                 <p>
                     I am a junior full-stack developer with a background in
@@ -51,7 +51,7 @@ const AboutMe = () => {
                     strong knowledge in various technologies, including NextJS,
                     ReactJS, React Native, VueJS, NodeJS, TypeScript, and Figma.
                 </p>
-                <h2>CURRENTLY</h2>
+                <h2>CURRENTLY:</h2>
                 <hr />
                 <p>
                     I completed intensive, project-based training in web
@@ -66,7 +66,7 @@ const AboutMe = () => {
                     fitness tracking app, editorial magazine, and photographer
                     website.
                 </p>
-                <h2>PREVIOUSLY</h2>
+                <h2>PREVIOUSLY:</h2>
                 <hr />
                 <p>
                     I hold a Masters degree in Economics from
@@ -77,7 +77,7 @@ const AboutMe = () => {
                     of experience in account management, market/financial
                     analysis, and creative customer solutions.
                 </p>
-                <h2>SKILL-SET</h2>
+                <h2>SKILL-SET:</h2>
                 <hr />
                 <p>
                     I hold excellent skills in customer orientation,
