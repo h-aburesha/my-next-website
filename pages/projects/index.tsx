@@ -1,58 +1,58 @@
-import { useRef } from "react";
-import { useEffect, useState } from "react";
-import { motion, useScroll, useSpring } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
-import Navbar from "../components/navbar";
+import { useRef } from 'react'
+import { useEffect, useState } from 'react'
+import { motion, useScroll, useSpring } from 'framer-motion'
+import Image from 'next/image'
+import Link from 'next/link'
+import Navbar from '../components/navbar'
 
 function ProjectImage({ id }: { id: number }) {
-    const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(false)
 
     useEffect(() => {
-        setIsMobile(window.innerWidth < 768);
-    }, []);
+        setIsMobile(window.innerWidth < 768)
+    }, [])
 
-    const ref = useRef(null);
-    const { scrollYProgress } = useScroll({ target: ref });
+    const ref = useRef(null)
+    const { scrollYProgress } = useScroll({ target: ref })
 
     const projectTitles = [
         {
-            title: "Bold",
-            description: "React Native - Mobile Application",
+            title: 'Bold',
+            description: 'React Native - Mobile Application',
         },
         {
-            title: "Jam",
-            description: "React - Social Network Platform",
+            title: 'Jam',
+            description: 'React - Social Network Platform',
         },
         {
-            title: "Pixla",
-            description: "Vue - Image Board",
+            title: 'Pixla',
+            description: 'Vue - Image Board',
         },
         {
-            title: "Till Van Loosen",
-            description: "UX Study & Figma UI",
+            title: 'Till Van Loosen',
+            description: 'UX Study & Figma UI',
         },
         {
-            title: "Bold Fitness Tracker",
-            description: "UX Study & Figma UI",
+            title: 'Bold Fitness Tracker',
+            description: 'UX Study & Figma UI',
         },
         {
-            title: "Verbally Meeting Assistant",
-            description: "User Dashboard & Settings Page",
+            title: 'Verbally Meeting Assistant',
+            description: 'User Dashboard & Settings Page',
         },
         {
-            title: "Verbally Timer",
-            description: "UX/UI Study & React App",
+            title: 'Verbally Timer',
+            description: 'UX/UI Study & React App',
         },
-    ];
+    ]
 
     return (
         <>
             <div
                 style={{
-                    position: "fixed",
-                    width: "100%",
-                    zIndex: "+1",
+                    position: 'fixed',
+                    width: '100%',
+                    zIndex: '+1',
                 }}
             >
                 <Navbar />
@@ -75,28 +75,28 @@ function ProjectImage({ id }: { id: number }) {
                     <motion.h2>{projectTitles[id - 1].title}</motion.h2>
                     <motion.p
                         style={{
-                            fontWeight: "lighter",
-                            fontStyle: "normal",
-                            marginTop: "10px",
+                            fontWeight: 'lighter',
+                            fontStyle: 'normal',
+                            marginTop: '10px',
                         }}
                     >
                         {projectTitles[id - 1].description}
                         <Link
                             style={{
-                                fontWeight: "lighter",
-                                fontStyle: "normal",
-                                textDecoration: "none",
-                                fontSize: "0.8em",
-                                fontFamily: "Arial, sans-serif",
-                                color: "white",
-                                transition: "color 0.3s ease",
+                                fontWeight: 'lighter',
+                                fontStyle: 'normal',
+                                textDecoration: 'none',
+                                fontSize: '0.8em',
+                                fontFamily: 'Arial, sans-serif',
+                                color: 'white',
+                                transition: 'color 0.3s ease',
                             }}
                             href={`/projects/${id}`}
                             onMouseOver={(e) =>
-                                (e.currentTarget.style.color = "#646cff")
+                                (e.currentTarget.style.color = '#646cff')
                             }
                             onMouseOut={(e) =>
-                                (e.currentTarget.style.color = "white")
+                                (e.currentTarget.style.color = 'white')
                             }
                         >
                             <br />
@@ -106,23 +106,23 @@ function ProjectImage({ id }: { id: number }) {
                 </div>
             </section>
         </>
-    );
+    )
 }
 
 export default function Projects() {
-    const { scrollYProgress } = useScroll();
+    const { scrollYProgress } = useScroll()
     const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
         restDelta: 0.001,
-    });
+    })
 
     return (
         <>
-            {[7, 6, 1, 2, 4, 5, 3].map((image) => (
+            {[6, 7, 1, 2, 4, 5, 3].map((image) => (
                 <ProjectImage key={image} id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
         </>
-    );
+    )
 }
