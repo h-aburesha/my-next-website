@@ -71,20 +71,12 @@ function Project7() {
                 <h2 style={{ fontWeight: 'bolder' }}>FEATURES:</h2>
                 <hr />
                 <br />
-                <h3 style={{ fontWeight: 'bolder' }}>1- POPUP MODAL</h3>
+                <h3 style={{ fontWeight: 'bolder' }}>
+                    1- ACTIVE SPEAKER TIMER
+                </h3>
                 <hr />
                 <br />
-                <Image
-                    src={verballyModalPopupImage}
-                    placeholder="blur"
-                    loading="eager"
-                    alt="verbally's meeting assistant home page"
-                    width={600}
-                    style={{
-                        borderRadius: '4px',
-                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
-                    }}
-                />
+                <video src="/videos/active-speaker.mov" loop controls />
                 <br />
                 <h3 style={{ fontWeight: 'bolder' }}>
                     2- TOOLTIP TEXT INFO DISPLAY
