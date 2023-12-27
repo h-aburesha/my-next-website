@@ -45,7 +45,7 @@ export default function Document() {
                 <meta name="author" content="Hassan Aburesha" />
                 <meta
                     name="keywords"
-                    content="Developer,UX,UI,Berlin,Designer"
+                    content="Developer,UX,UI,Berlin,Designer,Figma,React,Next.js,Typescript,Node.js,GraphQL,PostgreSQL,Prisma,HTML,CSS,JavaScript,Web,Website,Portfolio,Fullstack,Frontend,Backend,Software,Engineer,Software Engineer,Software Developer,Software Development,Software Engineering,Software Architecture,Software Design,Software Design,Software Architecture,Software Design,Software Architecture,Software Design"
                 />
                 <link rel="canonical" href="https://www.aburesha.com/" />
             </Head>
