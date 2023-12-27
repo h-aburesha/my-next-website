@@ -3,14 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { FaLink } from 'react-icons/fa'
 
-import verballyHomePageImage from '../../public/verbally_pics/homepage.png'
-import verballyModalPopupImage from '../../public/verbally_pics/modal-popup.png'
-import verballyTooltipTextImage from '../../public/verbally_pics/tooltip-text.png'
-import verballyVerticalNavImage from '../../public/verbally_pics/vertical-nav.gif'
-import verballyTooltipImage from '../../public/verbally_pics/tooltip-img.gif'
-import verballySkeletonsImage from '../../public/verbally_pics/skeletons.gif'
-import verballySpinnerImage from '../../public/verbally_pics/spinner.gif'
-import verballyTimedDialog from '../../public/verbally_pics/timer-dialog.gif'
+import verballySpeakerTimer from '/public/verbally_pics/active-speaker.gif'
 import Navbar from '../components/navbar'
 
 function Project7() {
@@ -32,9 +25,6 @@ function Project7() {
                 <code style={{ fontWeight: 'bold', fontSize: '1em' }}>
                     Meeting Assistant Notifications
                 </code>
-                <a target={'_blank'} href="https://app.verbally.io/">
-                    <FaLink />
-                </a>
                 <br />
                 <code
                     style={{
@@ -49,10 +39,9 @@ function Project7() {
 
             <article>
                 <Image
-                    src={verballyHomePageImage}
-                    placeholder="blur"
+                    src={verballySpeakerTimer}
                     alt="verbally's meeting assistant home page"
-                    width={800}
+                    width={400}
                     priority={true}
                     loading="eager"
                 />
@@ -75,105 +64,49 @@ function Project7() {
                     1- ACTIVE SPEAKER TIMER
                 </h3>
                 <hr />
+                <p>
+                    Notifies speaker during the meeting if they go over 2
+                    minutes, in order to avoid monologues.
+                </p>
                 <br />
-                <video src="/videos/active-speaker.mov" loop controls />
-                <br />
-                <h3 style={{ fontWeight: 'bolder' }}>
-                    2- TOOLTIP TEXT INFO DISPLAY
-                </h3>
-                <hr />
-                <br />
-                <Image
-                    src={verballyTooltipTextImage}
-                    placeholder="blur"
-                    loading="eager"
-                    alt="verbally's meeting assistant home page"
-                    width={600}
-                    style={{
-                        borderRadius: '4px',
-                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
-                    }}
+                <video
+                    src="/videos/active-speaker.mov"
+                    autoPlay={true}
+                    loop={true}
+                    controls
                 />
                 <br />
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    3- VERTICAL NAVIGATION MENU
-                </h3>
-                <hr />
-                <br />
-                <Image
-                    src={verballyVerticalNavImage}
-                    alt="verbally's meeting assistant home page"
-                    width={600}
-                    style={{
-                        borderRadius: '4px',
-                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
-                    }}
-                />
-                <br />
-                <h3 style={{ fontWeight: 'bolder' }}>
-                    4- TOOLTIP IMAGE DISPLAY
-                </h3>
-                <hr />
-                <br />
-                <Image
-                    src={verballyTooltipImage}
-                    alt="verbally's meeting assistant home page"
-                    width={600}
-                    style={{
-                        borderRadius: '4px',
-                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
-                    }}
-                />
-                <br />
-                <h3 style={{ fontWeight: 'bolder' }}>
-                    5- PLACEHOLDER SKELETONS
+                    2- MEETING HAS ENDED / RUNNING OVERTIME
                 </h3>
                 <hr />
                 <p>
-                    This is designed to display placeholders styled after the
-                    actual component, that display similar grey figures till API
-                    calls are fulfilled and component is propagated.{' '}
+                    Notifies participants the meeting has ended and displays the
+                    overtime duration, in order to avoid overtime.
                 </p>
                 <br />
-                <Image
-                    src={verballySkeletonsImage}
-                    alt="verbally's meeting assistant home page"
-                    width={600}
-                    style={{
-                        borderRadius: '4px',
-                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
-                    }}
+                <video
+                    src="/videos/meeting-ended.mov"
+                    autoPlay={true}
+                    loop={true}
+                    controls
                 />
                 <br />
-                <h3 style={{ fontWeight: 'bolder' }}>
-                    6- SPINNER PLACEHOLDER FOR IMAGES
-                </h3>
+                <h3 style={{ fontWeight: 'bolder' }}>3- TIMER ONLY DISPLAY</h3>
                 <hr />
+                <p>
+                    Allows verbally users to display only the meeting timer,
+                    including active speaker and end of meeting notifications,
+                    for meeting without preset agendas.
+                </p>
                 <br />
-                <Image
-                    src={verballySpinnerImage}
-                    alt="verbally's meeting assistant home page"
-                    width={600}
-                    style={{
-                        borderRadius: '4px',
-                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
-                    }}
+                <video
+                    src="/videos/timer-only.mov"
+                    autoPlay={true}
+                    loop={true}
+                    controls
                 />
                 <br />
-                <h3 style={{ fontWeight: 'bolder' }}>
-                    7- TIMED DIALOG TO ALLOW TIME FOR SETTINGS PROPAGATION
-                </h3>
-                <hr />
-                <br />
-                <Image
-                    src={verballyTimedDialog}
-                    alt="verbally's meeting assistant home page"
-                    width={600}
-                    style={{
-                        borderRadius: '4px',
-                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
-                    }}
-                />
                 <br />
             </article>
             <br />
