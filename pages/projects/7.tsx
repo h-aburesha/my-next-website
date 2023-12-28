@@ -1,7 +1,5 @@
 import { motion, useScroll, useSpring } from 'framer-motion'
-import Link from 'next/link'
 import Image from 'next/image'
-import { FaLink } from 'react-icons/fa'
 
 import verballySpeakerTimer from '/public/verbally_pics/active-speaker.gif'
 import Navbar from '../components/navbar'
