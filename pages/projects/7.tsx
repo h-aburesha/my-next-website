@@ -16,11 +16,11 @@ function Project7() {
         <>
             <Navbar />
             <h1>
-                <code style={{ fontWeight: 'bold', fontSize: '1.2em' }}>
+                <code style={{ fontWeight: 'bold', fontSize: '1em' }}>
                     Verbally GmbH
                 </code>
                 <br />
-                <code style={{ fontWeight: 'bold', fontSize: '1em' }}>
+                <code style={{ fontWeight: 'bold', fontSize: '0.8em' }}>
                     Meeting Assistant Notifications
                 </code>
                 <br />
