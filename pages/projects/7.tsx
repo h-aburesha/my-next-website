@@ -21,7 +21,7 @@ function Project7() {
                 </code>
                 <br />
                 <code style={{ fontWeight: 'bold', fontSize: '0.8em' }}>
-                    Meeting Assistant Notifications
+                    Meeting&quot;s Assistant Notifications
                 </code>
                 <br />
                 <code
