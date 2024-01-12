@@ -75,7 +75,7 @@ function Project7() {
                 />
                 <br />
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    2- MEETING HAS ENDED / RUNNING OVERTIME
+                    2- MEETING HAS ENDED / RUNNING OVERTIME:
                 </h3>
                 <hr />
                 <p>
