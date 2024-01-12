@@ -31,7 +31,7 @@ function Project7() {
                         fontSize: '0.8em',
                     }}
                 >
-                    &quot;React, Redux, Figma&quot;
+                    &quot;React, Redux, Figma UI&quot;
                 </code>
             </h1>
 
