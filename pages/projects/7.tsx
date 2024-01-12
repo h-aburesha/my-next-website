@@ -43,7 +43,7 @@ function Project7() {
                     priority={true}
                     loading="eager"
                 />
-                <h2 style={{ fontWeight: 'bolder' }}>SCOPE OF THE PROJECT</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>SCOPE OF THE PROJECT:</h2>
                 <hr />
                 <p>
                     The project was to create a meeting assistant push
