@@ -90,7 +90,7 @@ function Project7() {
                     controls
                 />
                 <br />
-                <h3 style={{ fontWeight: 'bolder' }}>3- TIMER ONLY DISPLAY:</h3>
+                <h3 style={{ fontWeight: 'bolder' }}>3- TIMER ONLY DISPLAY</h3>
                 <hr />
                 <p>
                     Allows verbally users to display only the meeting timer,
