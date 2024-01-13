@@ -59,7 +59,7 @@ function Project7() {
                 <hr />
                 <br />
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    1- ACTIVE SPEAKER TIMER:
+                    1- ACTIVE SPEAKER TIMER
                 </h3>
                 <hr />
                 <p>
