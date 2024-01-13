@@ -55,7 +55,7 @@ function Project7() {
                     UI design and ending with the development.
                 </p>
 
-                <h2 style={{ fontWeight: 'bolder' }}>FEATURES:</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>FEATURES</h2>
                 <hr />
                 <br />
                 <h3 style={{ fontWeight: 'bolder' }}>
