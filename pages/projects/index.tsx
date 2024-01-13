@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import { useEffect, useState } from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
+import CircularProgress from '@mui/material/CircularProgress'
 import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '../components/navbar'
@@ -46,6 +47,9 @@ function ProjectImage({ id }: { id: number }) {
         },
     ]
 
+    // Spinner for loading images
+    const [isImageLoaded, setImageLoaded] = useState(false)
+
     return (
         <>
             <div
@@ -59,17 +63,28 @@ function ProjectImage({ id }: { id: number }) {
             </div>
             <section>
                 <div ref={ref}>
-                    <Link href={`/projects/${id}`}>
-                        <Image
-                            className="projects-image"
-                            src={`/${id}.jpg`}
-                            alt={projectTitles[id - 1].description}
-                            width={isMobile ? 500 : 1000}
-                            height={isMobile ? 250 : 500}
-                            loading="eager"
-                            priority={true}
-                        />
-                    </Link>
+                    <div
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            height: '100%',
+                        }}
+                    >
+                        <Link href={`/projects/${id}`}>
+                            {!isImageLoaded && <CircularProgress />}
+                            <Image
+                                className="projects-image"
+                                src={`/${id}.jpg`}
+                                alt={projectTitles[id - 1].description}
+                                width={isMobile ? 500 : 1000}
+                                height={isMobile ? 250 : 500}
+                                loading="eager"
+                                priority={true}
+                                onLoad={() => setImageLoaded(true)}
+                            />
+                        </Link>
+                    </div>
                 </div>
                 <div className="projects-title-div">
                     <motion.h2>{projectTitles[id - 1].title}</motion.h2>
