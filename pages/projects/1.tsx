@@ -178,12 +178,3 @@ function Project1() {
 }
 
 export default Project1
-
-/* 
-
-import { useRouter } from "next/router";
-
-    const router = useRouter();
-    const projectId = router.query.projectId;
-
-*/
