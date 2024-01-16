@@ -1,32 +1,32 @@
-import { motion, useScroll, useSpring } from "framer-motion";
-import { Carousel } from "@mantine/carousel";
-import { FaGithub } from "react-icons/fa";
-import Link from "next/link";
-import Image from "next/image";
-import b1 from "../../public/bold_pics/b1.png";
-import b2 from "../../public/bold_pics/b2.png";
-import b3 from "../../public/bold_pics/b3.png";
-import b4 from "../../public/bold_pics/b4.png";
-import b5 from "../../public/bold_pics/b5.png";
-import Navbar from "../components/navbar";
+import { motion, useScroll, useSpring } from 'framer-motion'
+import { Carousel } from '@mantine/carousel'
+import { FaGithub } from 'react-icons/fa'
+import Link from 'next/link'
+import Image from 'next/image'
+import b1 from '../../public/bold_pics/b1.png'
+import b2 from '../../public/bold_pics/b2.png'
+import b3 from '../../public/bold_pics/b3.png'
+import b4 from '../../public/bold_pics/b4.png'
+import b5 from '../../public/bold_pics/b5.png'
+import Navbar from '../components/navbar'
 
 function Project1() {
-    const { scrollYProgress } = useScroll();
+    const { scrollYProgress } = useScroll()
     const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
         restDelta: 0.001,
-    });
+    })
 
     return (
         <>
             <Navbar />
             <h1>
-                <code style={{ fontWeight: "bold", fontSize: "1.5em" }}>
-                    BOLD{" "}
+                <code style={{ fontWeight: 'bold', fontSize: '1.5em' }}>
+                    BOLD{' '}
                 </code>
                 <a
-                    target={"_blank"}
+                    target={'_blank'}
                     href="https://github.com/h-aburesha/react-native-app-bold"
                 >
                     <FaGithub />
@@ -34,9 +34,9 @@ function Project1() {
                 <br />
                 <code
                     style={{
-                        fontStyle: "normal",
-                        fontWeight: "lighter",
-                        fontSize: "0.8em",
+                        fontStyle: 'normal',
+                        fontWeight: 'lighter',
+                        fontSize: '0.8em',
                     }}
                 >
                     React Native Fitness App
@@ -44,14 +44,14 @@ function Project1() {
             </h1>
 
             <article>
-                <h2 style={{ fontWeight: "bolder" }}>DESCRIPTION</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>DESCRIPTION:</h2>
                 <hr />
                 <p>
                     A React Native fitness tracking mobile application, designed
-                    based on my{" "}
+                    based on my{' '}
                     <Link href="/projects/5">previous UX/UI Study</Link>.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>FEATURES</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>FEATURES</h2>
                 <hr />
 
                 <ul>
@@ -69,7 +69,7 @@ function Project1() {
                     </li>
                 </ul>
 
-                <h2 style={{ fontWeight: "bolder" }}>
+                <h2 style={{ fontWeight: 'bolder' }}>
                     CHALLENGES & MOTIVATION
                 </h2>
                 <hr />
@@ -115,9 +115,9 @@ function Project1() {
                     launching this app to help individuals track their fitness
                     goals in a convenient and user-friendly way.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>GALLERY</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>GALLERY</h2>
                 <Link
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: 'none' }}
                     href="https://codesandbox.io/p/github/h-aburesha/react-native-app-bold/initApp3?file=%2FREADME.md&workspace=%257B%2522activeFilepath%2522%253A%2522%252FREADME.md%2522%252C%2522openFiles%2522%253A%255B%2522%252FREADME.md%2522%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522spaces%2522%253A%257B%2522clfi9v4ml000t3b6rcneaywca%2522%253A%257B%2522key%2522%253A%2522clfi9v4ml000t3b6rcneaywca%2522%252C%2522name%2522%253A%2522Terminal%2522%252C%2522devtools%2522%253A%255B%257B%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clg0rgacn0030g4jo4svq1q4w%2522%252C%2522key%2522%253A%2522clg0rga6d00553b6r8lf5dexg%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D%257D%252C%2522currentSpace%2522%253A%2522clfi9v4ml000t3b6rcneaywca%2522%252C%2522spacesOrder%2522%253A%255B%2522clfi9v4ml000t3b6rcneaywca%2522%255D%252C%2522hideCodeEditor%2522%253Afalse%257D"
                 >
                     Check it out on CodeSandbox.
@@ -174,10 +174,10 @@ function Project1() {
             <br />
             <motion.div className="progress-bar" style={{ scaleX }} />
         </>
-    );
+    )
 }
 
-export default Project1;
+export default Project1
 
 /* 
 
