@@ -1,46 +1,45 @@
-import { motion, useScroll, useSpring } from "framer-motion";
-import Link from "next/link";
-import Image from "next/image";
-import { FaLink } from "react-icons/fa";
+import { motion, useScroll, useSpring } from 'framer-motion'
+import Image from 'next/image'
+import { FaLink } from 'react-icons/fa'
 
-import verballyHomePageImage from "../../public/verbally_pics/homepage.png";
-import verballyModalPopupImage from "../../public/verbally_pics/modal-popup.png";
-import verballyTooltipTextImage from "../../public/verbally_pics/tooltip-text.png";
-import verballyVerticalNavImage from "../../public/verbally_pics/vertical-nav.gif";
-import verballyTooltipImage from "../../public/verbally_pics/tooltip-img.gif";
-import verballySkeletonsImage from "../../public/verbally_pics/skeletons.gif";
-import verballySpinnerImage from "../../public/verbally_pics/spinner.gif";
-import verballyTimedDialog from "../../public/verbally_pics/timer-dialog.gif";
-import Navbar from "../components/navbar";
+import verballyHomePageImage from '../../public/verbally_pics/homepage.png'
+import verballyModalPopupImage from '../../public/verbally_pics/modal-popup.png'
+import verballyTooltipTextImage from '../../public/verbally_pics/tooltip-text.png'
+import verballyVerticalNavImage from '../../public/verbally_pics/vertical-nav.gif'
+import verballyTooltipImage from '../../public/verbally_pics/tooltip-img.gif'
+import verballySkeletonsImage from '../../public/verbally_pics/skeletons.gif'
+import verballySpinnerImage from '../../public/verbally_pics/spinner.gif'
+import verballyTimedDialog from '../../public/verbally_pics/timer-dialog.gif'
+import Navbar from '../components/navbar'
 
 function Project6() {
-    const { scrollYProgress } = useScroll();
+    const { scrollYProgress } = useScroll()
     const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
         restDelta: 0.001,
-    });
+    })
 
     return (
         <>
             <Navbar />
             <h1>
-                <code style={{ fontWeight: "bold", fontSize: "1.2em" }}>
+                <code style={{ fontWeight: 'bold', fontSize: '1.2em' }}>
                     Verbally GmbH
                 </code>
                 <br />
-                <code style={{ fontWeight: "bold", fontSize: "1em" }}>
-                    User Settings Page{" "}
+                <code style={{ fontWeight: 'bold', fontSize: '1em' }}>
+                    User Settings Page{' '}
                 </code>
-                <a target={"_blank"} href="https://app.verbally.io/">
+                <a target={'_blank'} href="https://app.verbally.io/">
                     <FaLink />
                 </a>
                 <br />
                 <code
                     style={{
-                        fontStyle: "normal",
-                        fontWeight: "lighter",
-                        fontSize: "0.8em",
+                        fontStyle: 'normal',
+                        fontWeight: 'lighter',
+                        fontSize: '0.8em',
                     }}
                 >
                     &quot;NextJS, Redux Toolkit Web App&quot;
@@ -56,7 +55,7 @@ function Project6() {
                     priority={true}
                     loading="eager"
                 />
-                <h2 style={{ fontWeight: "bolder" }}>SCOPE OF THE PROJECT</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>SCOPE OF THE PROJECT</h2>
                 <hr />
                 <p>
                     User dashboard and settings page providing customizations to
@@ -66,10 +65,10 @@ function Project6() {
                     been personally design as well.
                 </p>
 
-                <h2 style={{ fontWeight: "bolder" }}>FEATURES:</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>FEATURES:</h2>
                 <hr />
                 <br />
-                <h3 style={{ fontWeight: "bolder" }}>1- POPUP MODAL</h3>
+                <h3 style={{ fontWeight: 'bolder' }}>1- POPUP MODAL</h3>
                 <hr />
                 <br />
                 <Image
@@ -79,12 +78,12 @@ function Project6() {
                     alt="verbally's meeting assistant home page"
                     width={600}
                     style={{
-                        borderRadius: "4px",
-                        boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
+                        borderRadius: '4px',
+                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
                     }}
                 />
                 <br />
-                <h3 style={{ fontWeight: "bolder" }}>
+                <h3 style={{ fontWeight: 'bolder' }}>
                     2- TOOLTIP TEXT INFO DISPLAY
                 </h3>
                 <hr />
@@ -96,12 +95,12 @@ function Project6() {
                     alt="verbally's meeting assistant home page"
                     width={600}
                     style={{
-                        borderRadius: "4px",
-                        boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
+                        borderRadius: '4px',
+                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
                     }}
                 />
                 <br />
-                <h3 style={{ fontWeight: "bolder" }}>
+                <h3 style={{ fontWeight: 'bolder' }}>
                     3- VERTICAL NAVIGATION MENU
                 </h3>
                 <hr />
@@ -111,12 +110,12 @@ function Project6() {
                     alt="verbally's meeting assistant home page"
                     width={600}
                     style={{
-                        borderRadius: "4px",
-                        boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
+                        borderRadius: '4px',
+                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
                     }}
                 />
                 <br />
-                <h3 style={{ fontWeight: "bolder" }}>
+                <h3 style={{ fontWeight: 'bolder' }}>
                     4- TOOLTIP IMAGE DISPLAY
                 </h3>
                 <hr />
@@ -126,19 +125,19 @@ function Project6() {
                     alt="verbally's meeting assistant home page"
                     width={600}
                     style={{
-                        borderRadius: "4px",
-                        boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
+                        borderRadius: '4px',
+                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
                     }}
                 />
                 <br />
-                <h3 style={{ fontWeight: "bolder" }}>
+                <h3 style={{ fontWeight: 'bolder' }}>
                     5- PLACEHOLDER SKELETONS
                 </h3>
                 <hr />
                 <p>
                     This is designed to display placeholders styled after the
                     actual component, that display similar grey figures till API
-                    calls are fulfilled and component is propagated.{" "}
+                    calls are fulfilled and component is propagated.{' '}
                 </p>
                 <br />
                 <Image
@@ -146,12 +145,12 @@ function Project6() {
                     alt="verbally's meeting assistant home page"
                     width={600}
                     style={{
-                        borderRadius: "4px",
-                        boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
+                        borderRadius: '4px',
+                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
                     }}
                 />
                 <br />
-                <h3 style={{ fontWeight: "bolder" }}>
+                <h3 style={{ fontWeight: 'bolder' }}>
                     6- SPINNER PLACEHOLDER FOR IMAGES
                 </h3>
                 <hr />
@@ -161,12 +160,12 @@ function Project6() {
                     alt="verbally's meeting assistant home page"
                     width={600}
                     style={{
-                        borderRadius: "4px",
-                        boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
+                        borderRadius: '4px',
+                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
                     }}
                 />
                 <br />
-                <h3 style={{ fontWeight: "bolder" }}>
+                <h3 style={{ fontWeight: 'bolder' }}>
                     7- TIMED DIALOG TO ALLOW TIME FOR SETTINGS PROPAGATION
                 </h3>
                 <hr />
@@ -176,8 +175,8 @@ function Project6() {
                     alt="verbally's meeting assistant home page"
                     width={600}
                     style={{
-                        borderRadius: "4px",
-                        boxShadow: "rgb(255 255 255 / 45%) 4px 3px 9px",
+                        borderRadius: '4px',
+                        boxShadow: 'rgb(255 255 255 / 45%) 4px 3px 9px',
                     }}
                 />
                 <br />
@@ -186,7 +185,7 @@ function Project6() {
 
             <motion.div className="progress-bar" style={{ scaleX }} />
         </>
-    );
+    )
 }
 
-export default Project6;
+export default Project6
