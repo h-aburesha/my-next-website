@@ -1,10 +1,9 @@
-import React from "react";
-import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
-import Image from "next/image";
-import me from "../public/me.png";
-import myStackCover from "../public/my-stack-cover.png";
-import Link from "next/link";
-import Navbar from "./components/navbar";
+import React from 'react'
+import { FaLinkedin, FaGithub, FaDownload } from 'react-icons/fa'
+import Image from 'next/image'
+import me from '../public/me.png'
+import myStackCover from '../public/my-stack-cover.png'
+import Navbar from './components/navbar'
 
 const AboutMe = () => {
     return (
@@ -22,12 +21,12 @@ const AboutMe = () => {
                 </h1>
                 <div className="icons">
                     <a
-                        target={"_blank"}
+                        target={'_blank'}
                         href="https://www.linkedin.com/in/haburesha/"
                     >
                         <FaLinkedin />
                     </a>
-                    <a target={"_blank"} href="https://github.com/h-aburesha">
+                    <a target={'_blank'} href="https://github.com/h-aburesha">
                         <FaGithub />
                     </a>
                     <a href="/hassan_aburesha_cv.pdf" download>
@@ -88,7 +87,7 @@ const AboutMe = () => {
                 </p>
             </article>
         </>
-    );
-};
+    )
+}
 
-export default AboutMe;
+export default AboutMe
