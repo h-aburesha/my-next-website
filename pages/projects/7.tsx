@@ -1,6 +1,5 @@
 import { motion, useScroll, useSpring } from 'framer-motion'
 import Image from 'next/image'
-
 import verballySpeakerTimer from '/public/verbally_pics/active-speaker.gif'
 import Navbar from '../components/navbar'
 
