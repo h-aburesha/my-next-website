@@ -1,20 +1,19 @@
-import { motion, useScroll, useSpring } from "framer-motion";
-import Link from "next/link";
-import Image from "next/image";
-import till1 from "../../public/till_pics/till1.png";
-import till2 from "../../public/till_pics/till2.png";
-import till3 from "../../public/till_pics/persona.png";
-import till4 from "../../public/till_pics/hypothesis.png";
-import till5 from "../../public/till_pics/mood.png";
-import Navbar from "../components/navbar";
+import { motion, useScroll, useSpring } from 'framer-motion'
+import Image from 'next/image'
+import till1 from '../../public/till_pics/till1.png'
+import till2 from '../../public/till_pics/till2.png'
+import till3 from '../../public/till_pics/persona.png'
+import till4 from '../../public/till_pics/hypothesis.png'
+import till5 from '../../public/till_pics/mood.png'
+import Navbar from '../components/navbar'
 
 function Project4() {
-    const { scrollYProgress } = useScroll();
+    const { scrollYProgress } = useScroll()
     const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
         restDelta: 0.001,
-    });
+    })
 
     return (
         <>
@@ -29,7 +28,7 @@ function Project4() {
             />
 
             <article>
-                <h2 style={{ fontWeight: "bolder" }}>INTRODUCTION</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>INTRODUCTION</h2>
                 <hr />
                 <p>
                     Till Van Loosen is a Berlin based Photographer and Video
@@ -38,7 +37,7 @@ function Project4() {
                     usability to users in terms of overviewing projects & access
                     details easily.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>RESEARCH</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>RESEARCH</h2>
                 <hr />
                 <Image
                     src={till2}
@@ -55,7 +54,7 @@ function Project4() {
                     displaying cohesive style, former collaborations and
                     structure.
                 </p>
-                <h2 style={{ fontWeight: "bolder" }}>
+                <h2 style={{ fontWeight: 'bolder' }}>
                     BUSINESS ANALYSIS FINDINGS
                 </h2>
                 <hr />
@@ -74,7 +73,7 @@ function Project4() {
                         and easy navigation
                     </li>
                 </ul>
-                <h2 style={{ fontWeight: "bolder" }}>USER PERSONA</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>USER PERSONA</h2>
                 <hr />
                 <Image
                     src={till3}
@@ -82,7 +81,7 @@ function Project4() {
                     alt="user persona"
                     width={800}
                 />
-                <h2 style={{ fontWeight: "bolder" }}>PROBLEM STATEMENT</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>PROBLEM STATEMENT</h2>
                 <hr />
                 <ul>
                     <li>
@@ -105,7 +104,7 @@ function Project4() {
                         users&apos; needs and expectations.
                     </li>
                 </ul>
-                <h2 style={{ fontWeight: "bolder" }}>HYPOTHESIS</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>HYPOTHESIS</h2>
                 <hr />
                 <Image
                     src={till4}
@@ -113,7 +112,7 @@ function Project4() {
                     alt="hypothesis"
                     width={800}
                 />
-                <h2 style={{ fontWeight: "bolder" }}>MOOD BOARD</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>MOOD BOARD</h2>
                 <hr />
                 <Image
                     src={till5}
@@ -121,14 +120,14 @@ function Project4() {
                     alt="mood board"
                     width={800}
                 />
-                <h2 style={{ fontWeight: "bolder" }}>HI-FI PROTOTYPE</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>HI-FI PROTOTYPE</h2>
                 <hr />
                 <p>
                     Click to enlarge. Prototype could be navigated using the
                     hamburger menu on the top right.
                 </p>
                 <iframe
-                    style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                    style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
                     width="800"
                     height="450"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FavoLABt8sSd56OEAYCq6if%2FTill-Van-Loosen%3Fpage-id%3D11%253A149%26node-id%3D235-5296%26viewport%3D1050%252C737%252C0.02%26scaling%3Dscale-down%26starting-point-node-id%3D11%253A150"
@@ -140,7 +139,7 @@ function Project4() {
 
             <motion.div className="progress-bar" style={{ scaleX }} />
         </>
-    );
+    )
 }
 
-export default Project4;
+export default Project4
