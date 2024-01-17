@@ -59,7 +59,7 @@ function Project1() {
                         Barcode scanning using the phone&apos;s camera to show
                         nutritional information of products
                     </li>
-                    <li>Tracking of body metrics.</li>
+                    <li>Tracking of body metrics</li>
                     <li>Capability for personal notes and reminders.</li>
                     <li>Recipe suggestions.</li>
                     <li>Metrics page displaying total macronutrient intake.</li>
