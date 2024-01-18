@@ -62,7 +62,7 @@ function Project1() {
                     <li>Tracking of body metrics</li>
                     <li>Capability for personal notes and reminders.</li>
                     <li>Recipe suggestions</li>
-                    <li>Metrics page displaying total macronutrient intake.</li>
+                    <li>Metrics page displaying total macronutrient intake</li>
                     <li>
                         Personal profile page with BMI, photo, and dark/light
                         mode toggle
