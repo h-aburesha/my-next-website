@@ -67,7 +67,7 @@ function Project1() {
                     </li>
                     <li>
                         Personal profile page with BMI, photo, and dark/light
-                        mode toggle
+                        mode toggle.
                     </li>
                 </ul>
 
