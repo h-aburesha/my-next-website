@@ -70,7 +70,7 @@ function Project1() {
                 </ul>
 
                 <h2 style={{ fontWeight: 'bolder' }}>
-                    CHALLENGES & MOTIVATION:
+                    CHALLENGES & MOTIVATION
                 </h2>
                 <hr />
                 <p>
