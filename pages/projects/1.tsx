@@ -61,7 +61,7 @@ function Project1() {
                     </li>
                     <li>Tracking of body metrics</li>
                     <li>Capability for personal notes and reminders</li>
-                    <li>Recipe suggestions.</li>
+                    <li>Recipe suggestions</li>
                     <li>
                         Metrics page displaying total macronutrients intake.
                     </li>
