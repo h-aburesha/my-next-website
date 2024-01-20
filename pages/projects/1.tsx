@@ -65,7 +65,7 @@ function Project1() {
                     <li>Metrics page displaying total macronutrients intake</li>
                     <li>
                         Personal profile page with BMI, photo, and dark/light
-                        mode toggle.
+                        mode toggle
                     </li>
                 </ul>
 
