@@ -51,7 +51,7 @@ function Project1() {
                     based on my{' '}
                     <Link href="/projects/5">previous UX/UI Study</Link>.
                 </p>
-                <h2 style={{ fontWeight: 'bolder' }}>FEATURES</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>FEATURES:</h2>
                 <hr />
 
                 <ul>
