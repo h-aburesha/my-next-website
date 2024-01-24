@@ -44,7 +44,7 @@ function Project1() {
             </h1>
 
             <article>
-                <h2 style={{ fontWeight: 'bolder' }}>DESCRIPTION:</h2>
+                <h2 style={{ fontWeight: 'bolder' }}>DESCRIPTION</h2>
                 <hr />
                 <p>
                     A React Native fitness tracking mobile application, designed
