@@ -23,7 +23,7 @@ function Project1() {
             <Navbar />
             <h1>
                 <code style={{ fontWeight: 'bold', fontSize: '1.5em' }}>
-                    BOLD{' '}
+                    BOLD.{' '}
                 </code>
                 <a
                     target={'_blank'}
