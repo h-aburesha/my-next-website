@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion'
 
 const LandingContainer = () => {
     return (
@@ -14,9 +14,9 @@ const LandingContainer = () => {
                     initial={{ y: 30, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.5, duration: 1 }}
-                    style={{ textTransform: "uppercase" }}
+                    style={{ textTransform: 'uppercase' }}
                 >
-                    FRONT-END SOFTWARE ENGINEER & UX/UI DESIGNER.
+                    FRONT-END SOFTWARE ENGINEER & UX/UI DESIGNER
                     <hr />
                 </motion.code>
                 <motion.code
@@ -28,7 +28,7 @@ const LandingContainer = () => {
                 </motion.code>
             </header>
         </motion.div>
-    );
-};
+    )
+}
 
-export default LandingContainer;
+export default LandingContainer
