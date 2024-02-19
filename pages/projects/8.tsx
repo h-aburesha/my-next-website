@@ -2,6 +2,7 @@ import { motion, useScroll, useSpring } from 'framer-motion'
 import Image from 'next/image'
 import verballySpeakerTimer from '/public/verbally_pics/active-speaker.gif'
 import Navbar from '../components/navbar'
+import { FaGithub, FaLink } from 'react-icons/fa'
 
 function Project8() {
     const { scrollYProgress } = useScroll()
@@ -16,12 +17,28 @@ function Project8() {
             <Navbar />
             <h1>
                 <code style={{ fontWeight: 'bold', fontSize: '1em' }}>
-                    Now Playing in Cinemas
+                    Now Playing in Cinemas <br />
+                    <span style={{ fontSize: '0.5em' }}>
+                        The Movie Database (TMDB)
+                    </span>
                 </code>
+                <br />
                 <br />
                 <code style={{ fontWeight: 'bold', fontSize: '0.8em' }}>
                     List of currently playing movies
-                </code>
+                </code>{' '}
+                <a
+                    target={'_blank'}
+                    href="https://movie-list-current.vercel.app/"
+                >
+                    <FaLink />
+                </a>{' '}
+                <a
+                    target={'_blank'}
+                    href="https://github.com/h-aburesha/movie-list-current"
+                >
+                    <FaGithub />
+                </a>
                 <br />
                 <code
                     style={{
@@ -33,83 +50,81 @@ function Project8() {
                     &quot;NextJS, Material Design UI&quot;
                 </code>
             </h1>
+            <br />
+            <br />
             <iframe
                 src="https://movie-list-current.vercel.app/"
-                width={1000}
+                width={800}
                 height={800}
                 loading="lazy"
             ></iframe>
             <article>
-                <Image
-                    src={verballySpeakerTimer}
-                    alt="verbally's meeting assistant home page"
-                    width={400}
-                    priority={true}
-                    loading="eager"
-                />
                 <h2 style={{ fontWeight: 'bolder' }}>SCOPE OF THE PROJECT</h2>
                 <hr />
+                <br />
                 <p>
-                    The project was to create a meeting assistant push
-                    notifications that notifies the user during their meetings,
-                    using existing features such as &quot;habit nudging&quot;,
-                    &quot;active speaker timer&quot; and &quot;end of
-                    meeting&quot;. The project was developed using ReactJS and
-                    Redux. The project was developed by me starting from the UX,
-                    UI design and ending with the development.
+                    MovieTracker is a web application designed to help users
+                    keep track of currently playing movies and explore their
+                    details and reviews. With MovieTracker, users can easily
+                    browse through a curated list of movies currently in
+                    theaters, bookmark their favorites for later viewing, and
+                    delve into comprehensive information and reviews for each
+                    selected movie.
                 </p>
 
                 <h2 style={{ fontWeight: 'bolder' }}>FEATURES</h2>
                 <hr />
                 <br />
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    1- ACTIVE SPEAKER TIMER
+                    1- Display Currently Playing Movies
                 </h3>
                 <hr />
                 <p>
-                    Notifies speaker during the meeting if they go over 2
-                    minutes, in order to avoid monologues.
+                    <ul>
+                        <li>
+                            Present users with an up-to-date list of movies
+                            currently being screened in theaters.{' '}
+                        </li>
+                        <li>
+                            Utilize The Movie Database (TMDb) API to fetch
+                            real-time data on currently playing movies.
+                        </li>
+                    </ul>
                 </p>
-                <br />
-                <video
-                    src="/videos/active-speaker.mov"
-                    autoPlay={true}
-                    loop={true}
-                    controls
-                />
-                <br />
+
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    2- MEETING HAS ENDED / RUNNING OVERTIME
+                    2- Bookmarking Functionality
                 </h3>
                 <hr />
                 <p>
-                    Notifies participants the meeting has ended and displays the
-                    overtime duration, in order to avoid overtime.
+                    <ul>
+                        <li>
+                            Allow users to mark movies as favorites for quick
+                            access later.{' '}
+                        </li>
+                        <li>
+                            Implement user-specific bookmarking to save
+                            preferences across sessions.
+                        </li>
+                    </ul>
                 </p>
-                <br />
-                <video
-                    src="/videos/meeting-ended.mov"
-                    autoPlay={true}
-                    loop={true}
-                    controls
-                />
-                <br />
-                <h3 style={{ fontWeight: 'bolder' }}>3- TIMER ONLY DISPLAY</h3>
+
+                <h3 style={{ fontWeight: 'bolder' }}>
+                    3- Detailed Movie Information
+                </h3>
                 <hr />
                 <p>
-                    Allows verbally users to display only the meeting timer,
-                    including active speaker and end of meeting notifications,
-                    for meeting without preset agendas.
+                    <ul>
+                        <li>
+                            Enable users to click on a movie title to view
+                            detailed information and reviews.
+                        </li>
+                        <li>
+                            Utilize TMDb API to retrieve comprehensive details
+                            and reviews for each movie.
+                        </li>
+                    </ul>
                 </p>
-                <br />
-                <video
-                    src="/videos/timer-only.mov"
-                    autoPlay={true}
-                    loop={true}
-                    controls
-                />
-                <br />
-                <br />
             </article>
             <br />
 
