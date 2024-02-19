@@ -93,9 +93,7 @@ function Project8() {
                 </p>
 
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    <h3 style={{ fontWeight: 'bolder' }}>
-                        2- BOOKMARKING FUNCTIONALITY
-                    </h3>
+                    2- BOOKMARKING FUNCTIONALITY
                 </h3>
                 <hr />
                 <p>
@@ -110,11 +108,8 @@ function Project8() {
                         </li>
                     </ul>
                 </p>
-
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    <h3 style={{ fontWeight: 'bolder' }}>
-                        3- DETAILED MOVIE INFORMATION
-                    </h3>
+                    3- DETAILED MOVIE INFORMATION
                 </h3>
                 <hr />
                 <p>
