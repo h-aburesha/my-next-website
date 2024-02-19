@@ -76,7 +76,7 @@ function Project8() {
                 <hr />
                 <br />
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    1- Display Currently Playing Movies
+                    1- DISPLAY CURRENTLY PLAYING MOVIES
                 </h3>
                 <hr />
                 <p>
