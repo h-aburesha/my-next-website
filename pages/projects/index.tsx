@@ -45,6 +45,10 @@ function ProjectImage({ id }: { id: number }) {
             title: 'Verbally Timer',
             description: 'UX/UI Study & React App',
         },
+        {
+            title: 'The Movie Database (TMDb)',
+            description: 'Current movies & TV shows list',
+        },
     ]
 
     // Spinner for loading images
@@ -134,7 +138,7 @@ export default function Projects() {
 
     return (
         <>
-            {[6, 7, 1, 2, 4, 5, 3].map((image) => (
+            {[8, 6, 7, 1, 2, 4, 5, 3].map((image) => (
                 <ProjectImage key={image} id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />
