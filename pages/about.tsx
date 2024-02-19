@@ -44,10 +44,10 @@ const AboutMe = () => {
                 <h2>INTRODUCTION:</h2>
                 <hr />
                 <p>
-                    I am a junior full-stack developer with a background in
-                    UX/UI design and DevOps account management. My passion is
-                    creating user-friendly web and mobile applications. I have
-                    strong knowledge in various technologies, including NextJS,
+                    I am Fullstack Software Engineer with a background in UX/UI
+                    design and DevOps account management. My passion is creating
+                    user-friendly web and mobile applications. I have strong
+                    knowledge in various technologies, including NextJS,
                     ReactJS, React Native, VueJS, NodeJS, TypeScript, and Figma.
                 </p>
                 <h2>CURRENTLY:</h2>
