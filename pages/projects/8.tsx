@@ -100,7 +100,7 @@ function Project8() {
                     <ul>
                         <li>
                             Allow users to mark movies as favorites for quick
-                            access later.
+                            access later
                         </li>
                         <li>
                             Implement user-specific bookmarking to save
