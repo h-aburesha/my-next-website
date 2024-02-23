@@ -1,6 +1,9 @@
+// ** Third Party Imports
 import { motion, useScroll, useSpring } from 'framer-motion'
-import Navbar from '../components/navbar'
 import { FaGithub, FaLink } from 'react-icons/fa'
+
+// ** Custom Components
+import Navbar from '../components/navbar'
 
 function Project8() {
     const { scrollYProgress } = useScroll()
