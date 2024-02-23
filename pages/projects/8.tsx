@@ -115,7 +115,7 @@ function Project8() {
                     <ul>
                         <li>
                             Enable users to click on a movie title to view
-                            detailed information and reviews.
+                            detailed information and reviews
                         </li>
                         <li>
                             Utilize TMDb API to retrieve comprehensive details
