@@ -59,9 +59,9 @@ function Project8() {
                 loading="lazy"
             ></iframe>
             <article>
+                <br />
                 <h2 style={{ fontWeight: 'bolder' }}>SCOPE OF THE PROJECT</h2>
                 <hr />
-                <br />
                 <p>
                     MovieTracker is a web application designed to help users
                     keep track of currently playing movies and explore their
@@ -74,7 +74,7 @@ function Project8() {
 
                 <h2 style={{ fontWeight: 'bolder' }}>FEATURES</h2>
                 <hr />
-                <br />
+
                 <h3 style={{ fontWeight: 'bolder' }}>
                     1- DISPLAY CURRENTLY PLAYING MOVIES
                 </h3>
