@@ -103,7 +103,7 @@ function Project8() {
                         </li>
                         <li>
                             Implement user-specific bookmarking to save
-                            preferences across sessions.
+                            preferences across sessions
                         </li>
                     </ul>
                 </p>
