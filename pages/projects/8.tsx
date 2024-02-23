@@ -1,5 +1,4 @@
 import { motion, useScroll, useSpring } from 'framer-motion'
-import Image from 'next/image'
 import Navbar from '../components/navbar'
 import { FaGithub, FaLink } from 'react-icons/fa'
 
