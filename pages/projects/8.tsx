@@ -124,7 +124,6 @@ function Project8() {
                 </p>
             </article>
             <br />
-
             <motion.div className="progress-bar" style={{ scaleX }} />
         </>
     )
