@@ -90,7 +90,6 @@ function Project8() {
                         </li>
                     </ul>
                 </p>
-
                 <h3 style={{ fontWeight: 'bolder' }}>
                     2- BOOKMARKING FUNCTIONALITY
                 </h3>
