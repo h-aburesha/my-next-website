@@ -83,11 +83,11 @@ function Project8() {
                     <ul>
                         <li>
                             Present users with an up-to-date list of movies
-                            currently being screened in theaters.
+                            currently being screened in theaters
                         </li>
                         <li>
                             Utilize The Movie Database (TMDb) API to fetch
-                            real-time data on currently playing movies.
+                            real-time data on currently playing movies
                         </li>
                     </ul>
                 </p>
