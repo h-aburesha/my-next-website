@@ -119,7 +119,7 @@ function Project8() {
                         </li>
                         <li>
                             Utilize TMDb API to retrieve comprehensive details
-                            and reviews for each movie.
+                            and reviews for each movie
                         </li>
                     </ul>
                 </p>
