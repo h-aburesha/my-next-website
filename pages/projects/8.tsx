@@ -74,7 +74,6 @@ function Project8() {
 
                 <h2 style={{ fontWeight: 'bolder' }}>FEATURES</h2>
                 <hr />
-
                 <h3 style={{ fontWeight: 'bolder' }}>
                     1- DISPLAY CURRENTLY PLAYING MOVIES
                 </h3>
