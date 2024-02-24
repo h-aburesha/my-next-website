@@ -108,7 +108,7 @@ function Project8() {
                     </ul>
                 </p>
                 <h3 style={{ fontWeight: 'bolder' }}>
-                    3- DETAILED MOVIE INFORMATION
+                    3- DETAILED MOVIE INFORMATION:
                 </h3>
                 <hr />
                 <p>
