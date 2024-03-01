@@ -41,49 +41,33 @@ const AboutMe = () => {
                     alt="my-stack-cover"
                     placeholder="blur"
                 />
-                <h2>INTRODUCTION:</h2>
+                <h2>ABOUT</h2>
                 <hr />
                 <p>
-                    I am Fullstack Software Engineer with a background in UX/UI
-                    design and DevOps account management. My passion is creating
-                    user-friendly web and mobile applications. I have strong
-                    knowledge in various technologies, including NextJS,
-                    ReactJS, React Native, VueJS, NodeJS, TypeScript, and Figma.
+                    Fullstack Software Engineer, with a passion for creating
+                    user-friendly, responsive, and engaging web applications
+                    that enhance user satisfaction and loyalty. I have a strong
+                    background in UX/UI design and development, as well as CRM
+                    software and Figma, which I use to collaborate with
+                    cross-functional teams, conduct the full cycle of product
+                    development, and deliver high-quality solutions on time and
+                    on budget.
                 </p>
-                <h2>CURRENTLY:</h2>
+                <h2>GOAL</h2>
                 <hr />
                 <p>
-                    I completed intensive, project-based training in web
-                    development and UX/UI design at Spiced Academy GmbH and
-                    Ironhack GmbH, respectively. At Spiced, I learned
-                    JavaScript, HTML, CSS, and various technologies such as
-                    React, Vue.js, Node.js, and TypeScript. I developed multiple
-                    projects including a fitness tracking app, social network
-                    platform, and an anonymous image board. During the Ironhack
-                    bootcamp, I focused on design principles, user empathy, and
-                    UX writing, and completed various UI projects including a
-                    fitness tracking app, editorial magazine, and photographer
-                    website.
+                    My goal is to leverage my diverse skill set and domain
+                    expertise to create innovative and impactful web
+                    applications that solve real-world problems and delight
+                    users.
                 </p>
-                <h2>PREVIOUSLY:</h2>
+                <h2>PREVIOUSLY</h2>
                 <hr />
                 <p>
-                    I hold a Masters degree in Economics from
-                    Philipps-Universität Marburg and a Bachelor degree in
-                    Economics from Cairo University. Before pursuing a career in
-                    web development, I worked as a business development manager
-                    for ICT companies, where I acquired eight successful years
-                    of experience in account management, market/financial
-                    analysis, and creative customer solutions.
-                </p>
-                <h2>SKILL-SET:</h2>
-                <hr />
-                <p>
-                    I hold excellent skills in customer orientation,
-                    problem-solving, conflict management, market and financial
-                    analysis, as well as user experience design. I am a native
-                    English and Arabic speaker with full working proficiency in
-                    German.
+                    I spent more than eight years in various roles in DevOps
+                    Strategic Sales, Project Management, and Corporate Lending,
+                    where I acquired valuable skills in customer acquisition and
+                    support, account development, forecasting, and reporting.
                 </p>
             </article>
         </>
