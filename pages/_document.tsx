@@ -28,6 +28,14 @@ export default function Document() {
                     name="google-site-verification"
                     content="Dn8khY8NOOtwdCmKNweUxEqzngzd5GYmEbMOJd9fh_0"
                 />
+                <meta
+                    name="description"
+                    content="Hassan Aburesha's Portfolio"
+                />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1.0"
+                />
                 <meta property="og:title" content="Hassan Aburesha" />
                 <meta
                     property="og:description"
