@@ -7,7 +7,8 @@ import Footer from './components/footer'
  * Document component.
  *
  * This is a custom Document component for Next.js. It's used to augment your
- * application's <html> and <body> tags...
+ * application's <html> and <body> tags. It's necessary to use this component to
+ * add custom tags to the <head> of the page.
  *
  * @see https://nextjs.org/docs/advanced-features/custom-document
  *
