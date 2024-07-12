@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion'
 
+/**
+ * Renders the landing container component.
+ * This component displays the header section of the landing page.
+ */
 const LandingContainer = () => {
     return (
         <motion.div
