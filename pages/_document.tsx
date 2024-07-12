@@ -24,42 +24,7 @@ import Footer from './components/footer'
 export default function Document() {
     return (
         <Html lang="en">
-            <Head>
-                <meta
-                    name="google-site-verification"
-                    content="Dn8khY8NOOtwdCmKNweUxEqzngzd5GYmEbMOJd9fh_0"
-                />
-                <meta
-                    name="description"
-                    content="Hassan Aburesha's Portfolio"
-                />
-                <meta
-                    name="viewport"
-                    content="width=device-width, initial-scale=1.0"
-                />
-                <meta property="og:title" content="Hassan Aburesha" />
-                <meta
-                    property="og:description"
-                    content="Hassan Aburesha's Portfolio"
-                />
-                <meta
-                    property="og:image"
-                    content={`${process.env.NEXT_PUBLIC_BASE_URL}/website-small.png`}
-                />
-                <meta property="og:url" content="https://www.aburesha.com/" />
-                <meta property="og:type" content="website" />
-                <meta
-                    property="og:site_name"
-                    content="Hassan Aburesha's Portfolio"
-                />
-                <meta name="robots" content="index, follow" />
-                <meta name="author" content="Hassan Aburesha" />
-                <meta
-                    name="keywords"
-                    content="Developer,UX,UI,Berlin,Designer,Figma,React,Next.js,Typescript,Node.js,GraphQL,PostgreSQL,Prisma,HTML,CSS,JavaScript,Web,Website,Portfolio,Fullstack,Frontend,Backend,Software,Engineer,Software Engineer,Software Developer,Software Development,Software Engineering,Software Architecture,Software Design,Software Design,Software Architecture,Software Design,Software Architecture,Software Design"
-                />
-                <link rel="canonical" href="https://www.aburesha.com/" />
-            </Head>
+            <Head />
             <body>
                 <Main />
                 <Footer />
