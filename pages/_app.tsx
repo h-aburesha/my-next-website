@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export default function App({ Component, pageProps }: AppProps) {
     const router = useRouter()
@@ -65,7 +64,6 @@ export default function App({ Component, pageProps }: AppProps) {
             </Head>
             <Component {...pageProps} />
             <Analytics />
-            <SpeedInsights />
         </>
     )
 }
