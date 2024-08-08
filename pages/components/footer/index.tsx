@@ -8,7 +8,12 @@ import { FaLinkedin, FaGithub, FaDownload } from 'react-icons/fa'
  * @returns {JSX.Element} The rendered footer component.
  */
 
-function Footer({ title = 'All rights reserved' }) {
+type FooterProps = {
+    title?: string
+}
+
+function Footer({ title }: FooterProps) {
+    title = title || 'All rights reserved'
     return (
         <footer>
             <div className="footer-icons">

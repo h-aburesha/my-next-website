@@ -1,14 +1,18 @@
-import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import React from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
+/**
+ * Renders the navigation bar component.
+ * @returns The JSX element representing the navigation bar.
+ */
 function Navbar() {
-    const router = useRouter();
-    const pathName = router.pathname;
+    const router = useRouter()
+    const pathName = router.pathname
 
     return (
         <div className="navigation-bar">
-            {pathName !== "/" && (
+            {pathName !== '/' && (
                 <Link href="/">
                     <button>HOME</button>
                 </Link>
@@ -23,7 +27,7 @@ function Navbar() {
                 <button>EMAIL</button>
             </a>
         </div>
-    );
+    )
 }
 
-export default Navbar;
+export default Navbar
