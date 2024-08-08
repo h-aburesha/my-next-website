@@ -21,9 +21,9 @@ function Footer({ title = 'All rights reserved' }) {
                 <a target={'_blank'} href="https://github.com/h-aburesha">
                     <FaGithub />
                 </a>
-                <a href="/hassan_aburesha_cv.pdf" download>
+                {/*<a href="/hassan_aburesha_cv.pdf" download>
                     <FaDownload />
-                </a>
+                </a>*/}
             </div>
             <code>{title} &copy;</code>
         </footer>
