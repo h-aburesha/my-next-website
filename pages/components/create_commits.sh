@@ -18,6 +18,6 @@ while [[ "$current_date" < "$end_date" ]]; do
         GIT_COMMITTER_DATE="$formatted_date" git commit --allow-empty --date="$formatted_date" -m "Commit $((i + 1)) for $current_date"
     done
 
-    # Move to the next day
+    # Move to the next day -> ./create_commits.sh
     current_date=$(date -j -v+1d -f "%Y-%m-%d" "$current_date" +"%Y-%m-%d")
 done
