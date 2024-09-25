@@ -1,14 +1,14 @@
 # create_commits.sh
 #!/bin/bash
 
-start_date="2023-11-19"
-end_date="2024-01-05"
+start_date="2024-10-25"
+end_date="2024-10-02"
 
 current_date="$start_date"
 
 while [[ "$current_date" < "$end_date" ]]; do
     # Generate a random number of commits between 1 and 10
-    num_commits=$((RANDOM % 10 + 1))
+    num_commits=$((RANDOM % 18 + 5))
 
     for ((i = 0; i < num_commits; i++)); do
         # Format the date for the commit
@@ -18,6 +18,6 @@ while [[ "$current_date" < "$end_date" ]]; do
         GIT_COMMITTER_DATE="$formatted_date" git commit --allow-empty --date="$formatted_date" -m "Commit $((i + 1)) for $current_date"
     done
 
-    # Move to the next day -> ./create_commits.sh
+    # Move to the next day -> 1chmod +x create_commits.sh then -> ./create_commits.sh
     current_date=$(date -j -v+1d -f "%Y-%m-%d" "$current_date" +"%Y-%m-%d")
 done
