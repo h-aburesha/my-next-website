@@ -2,9 +2,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 /**
- * Represents the structure of the data returned by the API
+ * Represents the structure of the data returned by the API.
  *
- * @property name - The name of the data entity
+ * @property name - The name of the data entity.
  */
 type Data = {
     name: string
