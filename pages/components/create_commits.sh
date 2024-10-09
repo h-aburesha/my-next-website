@@ -8,7 +8,7 @@ current_date="$start_date"
 
 while [[ "$current_date" < "$end_date" ]]; do
     # Generate a random number of commits between 1 and 10
-    num_commits=$((RANDOM % 18 + 5))
+    num_commits=$((RANDOM % 11 + 3))
 
     for ((i = 0; i < num_commits; i++)); do
         # Format the date for the commit
