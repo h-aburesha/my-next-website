@@ -7,7 +7,7 @@ end_date="2024-10-02"
 current_date="$start_date"
 
 while [[ "$current_date" < "$end_date" ]]; do
-    # Generate a random number of commits between 1 and 10
+    # Generate a random number of commits between 3 and 11
     num_commits=$((RANDOM % 11 + 3))
 
     for ((i = 0; i < num_commits; i++)); do
