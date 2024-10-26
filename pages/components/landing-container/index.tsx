@@ -20,7 +20,7 @@ const LandingContainer = () => {
                     transition={{ delay: 0.5, duration: 1 }}
                     style={{ textTransform: 'uppercase' }}
                 >
-                    FRONTEND SOFTWARE ENGINEER & UX DESIGNER.
+                    FRONTEND SOFTWARE ENGINEER & UX DESIGNER
                     <hr />
                 </motion.code>
                 <motion.code
