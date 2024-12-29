@@ -1,8 +1,8 @@
 # create_commits.sh
 #!/bin/bash
 
-start_date="2024-09-25"
-end_date="2024-10-02"
+start_date="2024-12-05"
+end_date="2024-12-13"
 
 current_date="$start_date"
 
